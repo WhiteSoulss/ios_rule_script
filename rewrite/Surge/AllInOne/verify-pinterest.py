@@ -99,7 +99,7 @@ assert len(old_rows) == len(new_rows) == 807
 actual = [(old, new) for old, new in zip(old_rows, new_rows) if old != new]
 expected = [((c["before"], "- reject"), (c["after"], "- reject")) for c in review["changes"]]
 assert actual == expected
-assert len(actual) == 10
+assert len(actual) == 2
 assert "#!author=blackmatrix7\n" in new_bytes.decode()
 assert "#!name=AllInOne · Pinterest兼容\n" in new_bytes.decode()
 assert len(new_sections["Script"]) == 24
@@ -141,9 +141,14 @@ protected_urls = [
     for scheme, host, path in itertools.product(
         ("https://", "http://", "HTTPS://"), protected_hosts, suffixes)
 ]
+changed_indexes = {i for i, (old, new) in enumerate(zip(old_rows, new_rows)) if old != new}
+assert {old_rows[i][0] for i in changed_indexes} == {
+    r"(?i)\badvertisement", r"(?i)\badvertising"}
 for url in protected_urls:
-    hits = [row for rx, row in zip(new_regexes, new_rows) if rx.search(url)]
-    assert not hits, ("Pinterest still intercepted", url, hits)
+    before = {i for i, rx in enumerate(old_regexes) if rx.search(url)}
+    after = {i for i, rx in enumerate(new_regexes) if rx.search(url)}
+    assert after == before - changed_indexes, (
+        "Only the two keyword rejects may change on Pinterest", url, before, after)
     assert not any(rx.search(url) for rx in extra), ("Rule/script intercept", url)
 
 controls = [
@@ -197,7 +202,8 @@ result = {
     "changed_generic_rejects": len(actual),
     "compiled_original_url_rewrites": len(old_regexes),
     "compiled_modified_module_regex_entries": len(new_regexes) + len(extra),
-    "protected_url_cases": len(protected_urls),
+    "pinterest_two_rule_scope_cases": len(protected_urls),
+    "remaining_pinterest_rejects_match_upstream": True,
     "non_pinterest_equivalence_cases": len(control_urls),
     "original_false_reject_samples": len(risk_urls),
     "retained_other_app_examples": len(app_samples),

@@ -1,5 +1,5 @@
 #!name=AllInOne · Pinterest兼容
-#!desc=原版更新 2025-08-26 02:12:35；2026-10-11 修改：通用拦截排除 Pinterest，保留原版功能。
+#!desc=原版更新 2025-08-26 02:12:35；2026-10-11 修改：仅两条通用广告关键词拦截排除 Pinterest。
 #!author=blackmatrix7
 #!repo=https://github.com/WhiteSoulss/ios_rule_script
 #!category=blackmatrix7
@@ -15,8 +15,9 @@
 #!force-http-engine-hosts=6
 #!total=1691
 
-# Modified by WhiteSoulss on 2026-10-11: ten generic URL reject rules exclude
-# pinterest.com / pinimg.com and their subdomains; all other actions retained.
+# Modified by WhiteSoulss on 2026-10-11: only the advertisement / advertising
+# keyword rejects exclude pinterest.com / pinimg.com and their subdomains.
+# All other actions retain their upstream matching scope.
 # Upstream: blackmatrix7/ios_rule_script @ 83f37120c155f67c8eef43221dabe15cc3c95fec
 # Original author: blackmatrix7. License: repository LICENSE (GPL-2.0).
 
@@ -116,15 +117,15 @@ URL-REGEX,^https?:\/\/api\.zhihu\.com\/settings\/new\/notification,REJECT
 "^https?:\/\/hypersnap\.mairuan\.com\/" https://www.keyshot.com/ 302
 "^https?:\/\/logoshejishi\.mairuan\.com\/" https://www.sothink.com/product/logo-design-software/ 302
 "(?i)\b\.ott\.cibntv\.net\/[\w\/-]+?\.mp4\?sid=" - reject
-"(?i)^(?!https?://(?:[a-z0-9-]+\.)*(?:pinterest\.com|pinimg\.com)\.?(?::\d+)?(?:[/?#]|$)).*?\b\/(outadservice|ting\/preload)\/" - reject
-"(?i)^(?!https?://(?:[a-z0-9-]+\.)*(?:pinterest\.com|pinimg\.com)\.?(?::\d+)?(?:[/?#]|$)).*?\b\/ad\/" - reject
-"(?i)^(?!https?://(?:[a-z0-9-]+\.)*(?:pinterest\.com|pinimg\.com)\.?(?::\d+)?(?:[/?#]|$)).*?\b\/api\/v\d\/adRealTime" - reject
-"(?i)^(?!https?://(?:[a-z0-9-]+\.)*(?:pinterest\.com|pinimg\.com)\.?(?::\d+)?(?:[/?#]|$)).*?\b\/brand\/search\/v1\.json" - reject
-"(?i)^(?!https?://(?:[a-z0-9-]+\.)*(?:pinterest\.com|pinimg\.com)\.?(?::\d+)?(?:[/?#]|$)).*?\b\/promotion\/(display_cache|display_ad|feed_display|search_ad)" - reject
-"(?i)^(?!https?://(?:[a-z0-9-]+\.)*(?:pinterest\.com|pinimg\.com)\.?(?::\d+)?(?:[/?#]|$)).*?\b\/splash\/getSplashV\d\.action" - reject
+"(?i)\b\/(outadservice|ting\/preload)\/" - reject
+"(?i)\b\/ad\/" - reject
+"(?i)\b\/api\/v\d\/adRealTime" - reject
+"(?i)\b\/brand\/search\/v1\.json" - reject
+"(?i)\b\/promotion\/(display_cache|display_ad|feed_display|search_ad)" - reject
+"(?i)\b\/splash\/getSplashV\d\.action" - reject
 "(?i)^(?!https?://(?:[a-z0-9-]+\.)*(?:pinterest\.com|pinimg\.com)\.?(?::\d+)?(?:[/?#]|$)).*?\badvertisement" - reject
 "(?i)^(?!https?://(?:[a-z0-9-]+\.)*(?:pinterest\.com|pinimg\.com)\.?(?::\d+)?(?:[/?#]|$)).*?\badvertising" - reject
-"(?i)^(?!https?://(?:[a-z0-9-]+\.)*(?:pinterest\.com|pinimg\.com)\.?(?::\d+)?(?:[/?#]|$)).*?\bsplash_screen" - reject
+"(?i)\bsplash_screen" - reject
 "(?i)\bvmind\.qqvideo\.tc\.qq\.com\/[\w\/\.-]+[a-z]\d+\.mp4\?" - reject
 "^http:\/\/.*aastocks\.com\/ad\/" - reject
 "^http:\/\/.*babytree\.com/(plough\.do|go_search\/api\/mobile_search_new\/get_multi_search_default_keywords)" - reject
@@ -265,7 +266,7 @@ URL-REGEX,^https?:\/\/api\.zhihu\.com\/settings\/new\/notification,REJECT
 "^https?:\/\/3g\.csair\.com\/CSMBP\/bookProcess\/homepopup\/queryAdvertisement" - reject
 "^https?:\/\/47\.100\.65\.202\/source\/plugin\/mobile\/mobile\.php\?module=advis" - reject
 "^https?:\/\/4gimg\.map\.qq\.com\/mwaSplash\/" - reject
-"^(?!(?i:https?://(?:[a-z0-9-]+\.)*(?:pinterest\.com|pinimg\.com)\.?(?::\d+)?(?:[/?#]|$)))https?:\/\/[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+){1,3}(:\d+)?\/.*?\/v\d\/(version|notice\?|top_notice\?|advert\?position=[^2]+)" - reject
+"^https?:\/\/[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+){1,3}(:\d+)?\/.*?\/v\d\/(version|notice\?|top_notice\?|advert\?position=[^2]+)" - reject
 "^https?:\/\/[a-zA-Z0-9_-]+\.admobile.top\/" - reject
 "^https?:\/\/[a-zA-Z0-9_-]+\.ranfenghd\.com\/ad" - reject
 "^https?:\/\/[a-zA-Z0-9_-]+\.tianmu\.mobi\/ad" - reject

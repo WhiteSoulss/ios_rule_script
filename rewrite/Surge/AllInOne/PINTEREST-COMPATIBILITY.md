@@ -1,39 +1,52 @@
-# AllInOne：Pinterest 兼容修改
+# AllInOne：Pinterest 小范围修改
 
-此文件独立使用，原作者为 blackmatrix7，沿用仓库 GPL-2.0 许可证。
+原作者为 blackmatrix7，沿用仓库 GPL-2.0 许可证。
 2026-10-11 基于上游提交 83f37120c155f67c8eef43221dabe15cc3c95fec 修改。
 
 ## 安装
 
-在 Surge 停用原版 AllInOne，改用本仓库的 AllInOne.sgmodule：
+在 Surge 停用原版 AllInOne，使用本仓库的模块：
 
 https://raw.githubusercontent.com/WhiteSoulss/ios_rule_script/master/rewrite/Surge/AllInOne/AllInOne.sgmodule
 
-Pinterest 去广告仍使用现有独立原生 JQ 模块，或已包含它的 wool_scripts 总模块。
+Pinterest 去广告继续使用现有独立原生 JQ 模块，或已包含它的 wool_scripts 总模块。
 
-## 改动
+## 改动范围
 
-10 条不限定应用域名的通用 URL Reject 规则排除 HTTP(S) 的
-pinterest.com、pinimg.com 及其子域名。包含大小写、可选端口和域名末尾点；
-匹配范围以 URL 的域名为界，不因其他网站的查询参数提到 Pinterest 而放行。
+当前仅修改 [URL Rewrite] 的两条关键词 Reject：
 
-原版的 advertisement / advertising 规则匹配整个 URL。
-例如 Pinterest 首页 URL 携带 advertising_id 时，原版会拒绝该请求。
-这说明规则存在误拦风险；目前没有实际失败请求的完整 URL，未确认设备故障原因。
+- (?i)\badvertisement
+- (?i)\badvertising
 
-所有其余重写、分流、24 条脚本、MITM 和 HTTP engine 设置保持原版。
-本修改没有引入运行时 JS，没有修改 wool_scripts，也没有加入 Pinterest JQ。
+这两条规则排除 HTTP(S) 的 pinterest.com、pinimg.com 及其子域名。
+大小写、可选端口和域名末尾点均已考虑；以 URL 主机为界，
+不会因其他网站的参数中出现 Pinterest 而放行。
 
-## 验证和后续维护
+原版对整个 URL 搜索关键词。合成样例中的 Pinterest 请求携带
+advertising_id 或 field_set=advertisement，会命中原版规则。
 
-pinterest-review.json 记录精确原版/修改哈希和逐条规则差异。
-verify-pinterest.py 在 Linux 的 ICU 正则引擎上检查原版匹配风险、
-Pinterest 排除、其他域名行为、原版应用样例、捕获组和所有模块正则编译。
-验证命令：
+先前 10 条规则均排除 Pinterest 的版本由用户确认有效：
+https://raw.githubusercontent.com/WhiteSoulss/ios_rule_script/df4eae07033c138b4c37e61db55c7385ac518e64/rewrite/Surge/AllInOne/AllInOne.sgmodule
+
+用户随后要求缩小范围并取消拆分。本次将另外 8 条规则恢复为上游原样，
+保留上述两条关键词排除。它们是目前能够演示风险的两个关键词，
+但没有实际失败 URL，不能据此认定其余 8 条排除一定多余；
+缩小后的版本仍需用户复测。没有发布拆分诊断模块。
+
+其余运行时重写、分流、24 条脚本、MITM 和 HTTP engine 配置保持上游字节。
+模块名称、描述和仓库地址提供个人修改标识；作者、许可证保留。
+这里只修改 AllInOne.sgmodule，AllInOne_Mock.sgmodule 保留原版。
+
+## 验证与维护
+
+pinterest-review.json 记录原版、当前版本及用户确认有效版本的哈希、
+两条差异、8 条还原记录和设备复测状态。
+
+verify-pinterest.py 使用 VPS 的 Linux ICU 编译全部正则，
+检查 Pinterest 仅两条关键词变化、其他规则仍匹配上游、其他域名行为、
+捕获组和原版应用样例。执行：
 
 python3 verify-pinterest.py --upstream /path/to/original/AllInOne.sgmodule
 
-服务器验证通过不等于 Surge 设备端连接及去广告验证。
-这里只修改 AllInOne.sgmodule，AllInOne_Mock.sgmodule 保留原版。
-同步上游后需阅读新差异、重新复核这 10 条排除规则并验证，
-不能用自动生成的原版文件直接覆盖个人修改。
+服务器验证不能代替缩小版本的 Surge 设备复测。
+同步上游后需阅读实际变化，重新复核这两条规则；不能直接覆盖个人修改。
