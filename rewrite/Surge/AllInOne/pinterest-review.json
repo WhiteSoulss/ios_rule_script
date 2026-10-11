@@ -1,0 +1,82 @@
+{
+  "review_date": "2026-10-11",
+  "repository": "WhiteSoulss/ios_rule_script",
+  "upstream_repository": "blackmatrix7/ios_rule_script",
+  "upstream_commit": "83f37120c155f67c8eef43221dabe15cc3c95fec",
+  "module_path": "rewrite/Surge/AllInOne/AllInOne.sgmodule",
+  "upstream_sha256": "66a8282facc2c339363bdf924b0a65eeaf11b57acf4b5839538044303a2d388d",
+  "module_sha256": "8fa5fb3cbf8a6259f3707e3a67f9bfa815243417d030b17fd7aac09499ba4c84",
+  "scope": "Exclude Pinterest HTTP(S) authorities from ten domain-independent generic rejects; no merged bundle or runtime script changes.",
+  "original_author": "blackmatrix7",
+  "license": "GPL-2.0 (upstream LICENSE retained byte-for-byte)",
+  "changes": [
+    {
+      "before": "(?i)\\b\\/(outadservice|ting\\/preload)\\/",
+      "after": "(?i)^(?!https?://(?:[a-z0-9-]+\\.)*(?:pinterest\\.com|pinimg\\.com)\\.?(?::\\d+)?(?:[/?#]|$)).*?\\b\\/(outadservice|ting\\/preload)\\/",
+      "action": "reject"
+    },
+    {
+      "before": "(?i)\\b\\/ad\\/",
+      "after": "(?i)^(?!https?://(?:[a-z0-9-]+\\.)*(?:pinterest\\.com|pinimg\\.com)\\.?(?::\\d+)?(?:[/?#]|$)).*?\\b\\/ad\\/",
+      "action": "reject"
+    },
+    {
+      "before": "(?i)\\b\\/api\\/v\\d\\/adRealTime",
+      "after": "(?i)^(?!https?://(?:[a-z0-9-]+\\.)*(?:pinterest\\.com|pinimg\\.com)\\.?(?::\\d+)?(?:[/?#]|$)).*?\\b\\/api\\/v\\d\\/adRealTime",
+      "action": "reject"
+    },
+    {
+      "before": "(?i)\\b\\/brand\\/search\\/v1\\.json",
+      "after": "(?i)^(?!https?://(?:[a-z0-9-]+\\.)*(?:pinterest\\.com|pinimg\\.com)\\.?(?::\\d+)?(?:[/?#]|$)).*?\\b\\/brand\\/search\\/v1\\.json",
+      "action": "reject"
+    },
+    {
+      "before": "(?i)\\b\\/promotion\\/(display_cache|display_ad|feed_display|search_ad)",
+      "after": "(?i)^(?!https?://(?:[a-z0-9-]+\\.)*(?:pinterest\\.com|pinimg\\.com)\\.?(?::\\d+)?(?:[/?#]|$)).*?\\b\\/promotion\\/(display_cache|display_ad|feed_display|search_ad)",
+      "action": "reject"
+    },
+    {
+      "before": "(?i)\\b\\/splash\\/getSplashV\\d\\.action",
+      "after": "(?i)^(?!https?://(?:[a-z0-9-]+\\.)*(?:pinterest\\.com|pinimg\\.com)\\.?(?::\\d+)?(?:[/?#]|$)).*?\\b\\/splash\\/getSplashV\\d\\.action",
+      "action": "reject"
+    },
+    {
+      "before": "(?i)\\badvertisement",
+      "after": "(?i)^(?!https?://(?:[a-z0-9-]+\\.)*(?:pinterest\\.com|pinimg\\.com)\\.?(?::\\d+)?(?:[/?#]|$)).*?\\badvertisement",
+      "action": "reject"
+    },
+    {
+      "before": "(?i)\\badvertising",
+      "after": "(?i)^(?!https?://(?:[a-z0-9-]+\\.)*(?:pinterest\\.com|pinimg\\.com)\\.?(?::\\d+)?(?:[/?#]|$)).*?\\badvertising",
+      "action": "reject"
+    },
+    {
+      "before": "(?i)\\bsplash_screen",
+      "after": "(?i)^(?!https?://(?:[a-z0-9-]+\\.)*(?:pinterest\\.com|pinimg\\.com)\\.?(?::\\d+)?(?:[/?#]|$)).*?\\bsplash_screen",
+      "action": "reject"
+    },
+    {
+      "before": "^https?:\\/\\/[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+){1,3}(:\\d+)?\\/.*?\\/v\\d\\/(version|notice\\?|top_notice\\?|advert\\?position=[^2]+)",
+      "after": "^(?!(?i:https?://(?:[a-z0-9-]+\\.)*(?:pinterest\\.com|pinimg\\.com)\\.?(?::\\d+)?(?:[/?#]|$)))https?:\\/\\/[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+){1,3}(:\\d+)?\\/.*?\\/v\\d\\/(version|notice\\?|top_notice\\?|advert\\?position=[^2]+)",
+      "action": "reject"
+    }
+  ],
+  "client_effectiveness_verified": false,
+  "diagnosis": "Synthetic URLs demonstrate generic keyword rejection; the actual client failing URL has not been provided.",
+  "verification": {
+    "status": "passed",
+    "regex_engine": "libicui18n.so.74",
+    "changed_generic_rejects": 10,
+    "compiled_original_url_rewrites": 807,
+    "compiled_modified_module_regex_entries": 843,
+    "protected_url_cases": 891,
+    "non_pinterest_equivalence_cases": 1404,
+    "original_false_reject_samples": 2,
+    "retained_other_app_examples": 11,
+    "script_rows_preserved": 24,
+    "all_other_sections_identical": true,
+    "capture_group_counts_preserved": true,
+    "client_effectiveness_verified": false
+  },
+  "review_status": "approved-server-review-client-unverified"
+}
