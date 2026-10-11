@@ -23,7 +23,7 @@
   ],
   "client_effectiveness_verified": false,
   "diagnosis": "Keyword risks demonstrated by synthetic URLs; user confirmed the ten-rule version works. Sufficiency of the narrowed two-rule version still requires client retest.",
-  "review_status": "approved-server-review-narrowed-client-retest-pending",
+  "review_status": "approved-server-review-user-connectivity-confirmed",
   "working_baseline": {
     "commit": "df4eae07033c138b4c37e61db55c7385ac518e64",
     "module_sha256": "8fa5fb3cbf8a6259f3707e3a67f9bfa815243417d030b17fd7aac09499ba4c84",
@@ -46,7 +46,7 @@
     "diagnostic_split_cancelled_by_user": true,
     "diagnostic_modules_published": false,
     "exact_client_failing_url_received": false,
-    "two_rule_version_client_confirmed": false
+    "two_rule_version_client_confirmed": true
   },
   "verification": {
     "status": "passed",
@@ -63,5 +63,31 @@
     "all_other_sections_identical": true,
     "capture_group_counts_preserved": true,
     "client_effectiveness_verified": false
+  },
+  "client_connectivity_confirmation": {
+    "date": "2026-10-11",
+    "reported_by": "user",
+    "status": "working",
+    "evidence": "用户：成功了；保留这个改动，定时同步仓库。",
+    "actual_failed_request_url_available": false,
+    "device_operated_by_agent": false,
+    "all_app_ad_removal_validated": false
+  },
+  "scheduled_upstream_sync": {
+    "authorized_by_user": true,
+    "automation_id": "surge-github",
+    "cadence": "daily",
+    "target_time": "08:00",
+    "timezone": "Asia/Shanghai",
+    "source_repository": "blackmatrix7/ios_rule_script",
+    "source_branch": "master",
+    "target_repository": "WhiteSoulss/ios_rule_script",
+    "target_branch": "master",
+    "scope": "whole repository, preserving all personal changes",
+    "protected_keyword_rules": [
+      "advertisement",
+      "advertising"
+    ],
+    "execution_host": "107.174.244.24"
   }
 }
