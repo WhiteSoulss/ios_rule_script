@@ -1,0 +1,2158 @@
+{
+  "status": "manually-reviewed-and-verified",
+  "reviewed_at": "2026-10-12",
+  "execution_host": "107.174.244.24",
+  "source_repository": "blackmatrix7/ios_rule_script",
+  "target_repository": "WhiteSoulss/ios_rule_script",
+  "previous_upstream_commit": "83f37120c155f67c8eef43221dabe15cc3c95fec",
+  "upstream_commit": "19c84682407580056d0ae2f27e406f70db679de1",
+  "previous_fork_commit": "e741733245ca26e8caddb2a1d60f2bee4057451e",
+  "scope": "whole repository three-way merge; exact new upstream rule tree with all existing personal files preserved",
+  "upstream_changed_files": 246,
+  "upstream_changed_groups": {
+    "rule": 246
+  },
+  "upstream_rule_tree": "9788727e596eeb2e9df53e233b304b147ef0a21a",
+  "upstream_file_records": [
+    {
+      "path": "rule/AdGuard/Advertising/Advertising.txt",
+      "sha256": "f804c1e6115f7e9a0be5a190f2b90eb0fd68660dcd1df2cdd0fe7e1e5bcd1617",
+      "git_blob_sha": "a14872b2bd2032fd929e4199f6c600880226c9b1",
+      "bytes": 6376447,
+      "active_lines": 286254
+    },
+    {
+      "path": "rule/AdGuard/Advertising/README.md",
+      "sha256": "7db1d918cca676e3bbf479c4cb42476546b7fa06db1874dc0686d61fe42c112f",
+      "git_blob_sha": "4af8e2ccfab7a9303ae1877912cce4ee0bf10b33",
+      "bytes": 4844,
+      "active_lines": 55
+    },
+    {
+      "path": "rule/AdGuard/AdvertisingLite/AdvertisingLite.txt",
+      "sha256": "85e008d8a89a489623326333a724c8c6388a2d74355a351c40e588e867b276e1",
+      "git_blob_sha": "12d4bf2316abed7f0a571202a77a66a3cb356b0b",
+      "bytes": 694747,
+      "active_lines": 37692
+    },
+    {
+      "path": "rule/AdGuard/AdvertisingTest/AdvertisingTest.txt",
+      "sha256": "a7758b63b662189ec4f38b5107f3e416bddbbbd4f09938e0c7cf8f355fd2e1bf",
+      "git_blob_sha": "0f397f5d4febd560b53608349a4fd10b67cbdc97",
+      "bytes": 6860146,
+      "active_lines": 310845
+    },
+    {
+      "path": "rule/AdGuard/AdvertisingTest/README.md",
+      "sha256": "d7abb77f994e7f203a654cb0510c9f97b6cc2a7ee3813ee1f29245708dcd51eb",
+      "git_blob_sha": "4adaafbb46e4be023522387bb1347b91069a3a15",
+      "bytes": 6737,
+      "active_lines": 73
+    },
+    {
+      "path": "rule/AdGuard/Privacy/Privacy.txt",
+      "sha256": "c13df88635e313dff81b978654984a7162b3a517a54e532e39958b7112989c63",
+      "git_blob_sha": "3b6cc19521922e1eb679779209dd8d8db92dcb68",
+      "bytes": 1005570,
+      "active_lines": 39916
+    },
+    {
+      "path": "rule/Clash/Advertising/Advertising.list",
+      "sha256": "e32924e1ab42793a561f5ffb26a78d7e068079f4b12fb5b1c1f1cf1416f511aa",
+      "git_blob_sha": "10453aa4baccb3d22ac08507d9fc9ce4cb4cba32",
+      "bytes": 9436179,
+      "active_lines": 287021
+    },
+    {
+      "path": "rule/Clash/Advertising/Advertising.yaml",
+      "sha256": "20dbe1b7a697251df54d4b8742abd5279f466e2d2a96568707626ab69186709d",
+      "git_blob_sha": "12128942ceb73792134408beeb4408637d0e5bec",
+      "bytes": 23869,
+      "active_lines": 768
+    },
+    {
+      "path": "rule/Clash/Advertising/Advertising_Classical.yaml",
+      "sha256": "761263bb7dfdd7afcff354a9a426c173dc67d234acee5fff395041ee177d77e2",
+      "git_blob_sha": "550952de8d48b870f9bade337137b8b749c7519d",
+      "bytes": 10578893,
+      "active_lines": 287022
+    },
+    {
+      "path": "rule/Clash/Advertising/Advertising_Classical_No_Resolve.yaml",
+      "sha256": "9b4079ca6a96a708743b7cacf64c5037bdf59581fb047309dc60b0727452192f",
+      "git_blob_sha": "799f4b640cdf3ca33cf95b9e266eaac8710df0e1",
+      "bytes": 10584272,
+      "active_lines": 287022
+    },
+    {
+      "path": "rule/Clash/Advertising/Advertising_Domain.txt",
+      "sha256": "73c6e6371c42350fbef386764f3813cc6ead6637f110c424bf443a383de5fd84",
+      "git_blob_sha": "d90cec764921fff5e6025381ba05fe3aa2091128",
+      "bytes": 5787583,
+      "active_lines": 286254
+    },
+    {
+      "path": "rule/Clash/Advertising/Advertising_Domain.yaml",
+      "sha256": "facf4af558a5d4196299e52283a256ab4ddbe5bc3794f95ef6641982a2d60158",
+      "git_blob_sha": "8af2b165cb4206c15aac4e85cc1cc0a58a713af4",
+      "bytes": 7774930,
+      "active_lines": 286255
+    },
+    {
+      "path": "rule/Clash/Advertising/Advertising_Domain_For_Clash.txt",
+      "sha256": "70d1e3e8852aab2fc15e1ed2d7bdadba289b01edf406876dc28c7185f5f63e4a",
+      "git_blob_sha": "819ffb63548835075bd3b143d6128c646917716b",
+      "bytes": 6057397,
+      "active_lines": 286254
+    },
+    {
+      "path": "rule/Clash/Advertising/Advertising_No_Resolve.yaml",
+      "sha256": "e6260c43cdeaef969884e7c53c47ae8513f77bcab7f263358aaccb0e152b12ab",
+      "git_blob_sha": "aae923306ed5016bd53f3419b14ceec912659279",
+      "bytes": 29248,
+      "active_lines": 768
+    },
+    {
+      "path": "rule/Clash/Advertising/README.md",
+      "sha256": "4bd11c75175280afeda649c2a67d2824bf97b53636a0146044bc4f3a4057e600",
+      "git_blob_sha": "6d1bc2a4dda671ca7b7d3b38e7698ca8e77b67c4",
+      "bytes": 6872,
+      "active_lines": 78
+    },
+    {
+      "path": "rule/Clash/AdvertisingTest/AdvertisingTest.list",
+      "sha256": "2605a75116947fc0f6bc32d4954486274d37487aef5f6e3f141e7245b8fd0705",
+      "git_blob_sha": "a00c09cf402ca6019475667bc01f82a6f67e5cd2",
+      "bytes": 10214158,
+      "active_lines": 311636
+    },
+    {
+      "path": "rule/Clash/AdvertisingTest/AdvertisingTest.yaml",
+      "sha256": "d2d9149c87bdac596acaa987557b811196bd0e6a208026b0ac60bf38e06a768d",
+      "git_blob_sha": "f9ba8049306955d2a679dac6ab6c144c9ea51acc",
+      "bytes": 24560,
+      "active_lines": 792
+    },
+    {
+      "path": "rule/Clash/AdvertisingTest/AdvertisingTest_Classical.yaml",
+      "sha256": "7284ef8e559d5864c2f848e83219b4869b18656b8adffd73f3d6591920daf49f",
+      "git_blob_sha": "34f2306238b4602ba809679813cdfc4303063323",
+      "bytes": 11455090,
+      "active_lines": 311637
+    },
+    {
+      "path": "rule/Clash/AdvertisingTest/AdvertisingTest_Classical_No_Resolve.yaml",
+      "sha256": "9333e8b03b2b3447db6dc3a39b3df2b81e503552d2652cf7563251d85c67f34c",
+      "git_blob_sha": "5e512da40f2211cb4dfe6141371d96803d1309e4",
+      "bytes": 11460711,
+      "active_lines": 311637
+    },
+    {
+      "path": "rule/Clash/AdvertisingTest/AdvertisingTest_Domain.txt",
+      "sha256": "f98cc3d5714c8ab9bde9df7c849b8cdc1d9a342bd815fafd295ac1aa409664da",
+      "git_blob_sha": "24c2e4d2dc9831a860079288ab2e07265bd0362f",
+      "bytes": 6225378,
+      "active_lines": 310845
+    },
+    {
+      "path": "rule/Clash/AdvertisingTest/AdvertisingTest_Domain.yaml",
+      "sha256": "b8c5bf6b889b6843916c87b917dc694fc8e8abe21c1e4369c797f1e353074c2d",
+      "git_blob_sha": "c398b0098e9465f34308d707b5add1402bd85f3d",
+      "bytes": 8388140,
+      "active_lines": 310846
+    },
+    {
+      "path": "rule/Clash/AdvertisingTest/AdvertisingTest_Domain_For_Clash.txt",
+      "sha256": "f1b002fd1607783d2f2f290436a154bce3db0b6a17c610c051fe13949d4c7722",
+      "git_blob_sha": "fe3ef9a54769dde077ce53e2dcce4877bebeb80a",
+      "bytes": 6523061,
+      "active_lines": 310845
+    },
+    {
+      "path": "rule/Clash/AdvertisingTest/AdvertisingTest_No_Resolve.yaml",
+      "sha256": "e5d92b1a49fc91b293866eedb77b90360d45ce41fb4ec4758075c5d40fde8012",
+      "git_blob_sha": "dcbd7bd01709cdf750ea1b4dc633396e83676b42",
+      "bytes": 30181,
+      "active_lines": 792
+    },
+    {
+      "path": "rule/Clash/AdvertisingTest/README.md",
+      "sha256": "9f2b49b40e90f402050de5f8f2e06da5d3c2142b682acce85e61eda5bcadb156",
+      "git_blob_sha": "4d59f2303a87f77850414f49f1d508fffa4c48cf",
+      "bytes": 8897,
+      "active_lines": 96
+    },
+    {
+      "path": "rule/Clash/Apple/Apple.list",
+      "sha256": "cdc06a95d41b29036a4debfb9392b93348720ffaac150de2e45c37d1d4d5c420",
+      "git_blob_sha": "1e5d14598f7523732ed7920f51e27025e37397a8",
+      "bytes": 50838,
+      "active_lines": 1593
+    },
+    {
+      "path": "rule/Clash/Apple/Apple_Classical.yaml",
+      "sha256": "dc013bf20851058665d53e8e44907cedffd19ed885fbb78db50f675cf68148ca",
+      "git_blob_sha": "e66a57c9605270f75a820455ed54903c370700ae",
+      "bytes": 57076,
+      "active_lines": 1594
+    },
+    {
+      "path": "rule/Clash/Apple/Apple_Classical_No_Resolve.yaml",
+      "sha256": "e3783da7be8cedc808eb3f4a75d2ecd05618d5569dd400347e8c2f7d3c838483",
+      "git_blob_sha": "f0102c5237bbff80da4de28ea7dc5c05777a78d7",
+      "bytes": 57219,
+      "active_lines": 1594
+    },
+    {
+      "path": "rule/Clash/Apple/Apple_Domain.txt",
+      "sha256": "3b4a0a9255f5755a14f2cf0d26c80df345984d9f589b440b2416669980855185",
+      "git_blob_sha": "f2ecb530f97f545d54fe9be249f34c9c88c178be",
+      "bytes": 29610,
+      "active_lines": 1560
+    },
+    {
+      "path": "rule/Clash/Apple/Apple_Domain.yaml",
+      "sha256": "4d29c2ee6144d4379bcc8bd2e3ec661f54acfa7a43f4b46f638a2618d63e2c9c",
+      "git_blob_sha": "08292b18e023bc42c970e6d1e93b352bc038ab26",
+      "bytes": 40530,
+      "active_lines": 1561
+    },
+    {
+      "path": "rule/Clash/Apple/Apple_Domain_For_Clash.txt",
+      "sha256": "a2edecb510ade05130ed51439658d3aeac971de8e287662362c3a401c06d8e21",
+      "git_blob_sha": "52a7b9896d8c1ccd0d7b4173010b97f14fa2d132",
+      "bytes": 31161,
+      "active_lines": 1560
+    },
+    {
+      "path": "rule/Clash/Blizzard/Blizzard.list",
+      "sha256": "148f4ff869a482b49c81fbd606075712a6f72bd70ab2ee521ebeb6dcc44aaa89",
+      "git_blob_sha": "2c9fd8e940d461e40b2f6443a9d19ea58b6cc383",
+      "bytes": 2304,
+      "active_lines": 62
+    },
+    {
+      "path": "rule/Clash/Blizzard/Blizzard.yaml",
+      "sha256": "596f12725cf3427a5fc9365752e4c24e122a58c9f82ffc7008ff1e78e0291059",
+      "git_blob_sha": "3a0bb8ea6c4d23231203ba23f1482ede35ce6086",
+      "bytes": 2308,
+      "active_lines": 63
+    },
+    {
+      "path": "rule/Clash/Blizzard/Blizzard_No_Resolve.yaml",
+      "sha256": "1351008fa23dca7a4fcb543565839cb286c459d5fffb4caf77aafa9ddf194753",
+      "git_blob_sha": "bf28718fbe79be68dbd9c70d86091299ca1737e8",
+      "bytes": 2561,
+      "active_lines": 63
+    },
+    {
+      "path": "rule/Clash/ChinaIPs/ChinaIPs.list",
+      "sha256": "6e664484ecd88cceeadf153bb360e17fead24a0d6bee012be845aa43ae0d750a",
+      "git_blob_sha": "cc778676d705266c4dcb57c6eb75619566a0b749",
+      "bytes": 691595,
+      "active_lines": 19228
+    },
+    {
+      "path": "rule/Clash/ChinaIPs/ChinaIPsTest/ChinaIPsTest.list",
+      "sha256": "1f268dd948d1c814715e4699399b92d101262fb0c666e51c5b04ebbfd814adb8",
+      "git_blob_sha": "0937a7c969e8af80b949416f24e240fd306cea5c",
+      "bytes": 827903,
+      "active_lines": 23029
+    },
+    {
+      "path": "rule/Clash/ChinaIPs/ChinaIPsTest/ChinaIPsTest_Classical.yaml",
+      "sha256": "2e9e689262f34ca98b097ad3f69b382031623591e044b4600c5c58bafbccb97a",
+      "git_blob_sha": "09e59ed4c4612d0e99b2a7a8b4b902e2cc76eddd",
+      "bytes": 666709,
+      "active_lines": 23030
+    },
+    {
+      "path": "rule/Clash/ChinaIPs/ChinaIPsTest/ChinaIPsTest_Classical_No_IPv6.yaml",
+      "sha256": "e946ee7911f9db186eece178d88a103efa025f617bbbb65b4fec864c8e7cd22b",
+      "git_blob_sha": "548ce4a398bba68aba29b8e8648018ae1c54415d",
+      "bytes": 449655,
+      "active_lines": 16175
+    },
+    {
+      "path": "rule/Clash/ChinaIPs/ChinaIPsTest/ChinaIPsTest_Classical_No_IPv6_No_Resolve.yaml",
+      "sha256": "6f5ff82b54590cb149bf8c9f51f97a8306c63d8667de1409afb618b3ae6ee306",
+      "git_blob_sha": "7dc88b3aa499f4daa24b72dd3eb6cb80297bac4a",
+      "bytes": 627569,
+      "active_lines": 16175
+    },
+    {
+      "path": "rule/Clash/ChinaIPs/ChinaIPsTest/ChinaIPsTest_Classical_No_Resolve.yaml",
+      "sha256": "c53b4498fe97aba096a135cb3c3ceb06399f93c7da948c9330628e2bdb79296c",
+      "git_blob_sha": "5381e7e36a65d12c9894786dd4c0f967b795ebfa",
+      "bytes": 920028,
+      "active_lines": 23030
+    },
+    {
+      "path": "rule/Clash/ChinaIPs/ChinaIPsTest/ChinaIPsTest_IP.txt",
+      "sha256": "9a02f09e25f15835ee6f16008501822930e9e3b1b1ea52d8aaee7665fbd93240",
+      "git_blob_sha": "7933e293429f1377347201acf769e86a044f3c2d",
+      "bytes": 383497,
+      "active_lines": 23029
+    },
+    {
+      "path": "rule/Clash/ChinaIPs/ChinaIPsTest/ChinaIPsTest_IP.yaml",
+      "sha256": "942b33c2a5f594fe1ba32b3d8b16f8f01cde1e20006987c897fc28d48595b03e",
+      "git_blob_sha": "fc548c1de6d7389f0fb21827a6508ec38b552da2",
+      "bytes": 521680,
+      "active_lines": 23030
+    },
+    {
+      "path": "rule/Clash/ChinaIPs/ChinaIPsTest/ChinaIPsTest_IP_No_IPv6.txt",
+      "sha256": "91a72477adf606476d9403bffc38c8a0a520bdcee5cdad24bc83424a4bdd1139",
+      "git_blob_sha": "4d2c30bc42976088ce9223284420134efc1e6883",
+      "bytes": 255558,
+      "active_lines": 16174
+    },
+    {
+      "path": "rule/Clash/ChinaIPs/ChinaIPsTest/ChinaIPsTest_IP_No_IPv6.yaml",
+      "sha256": "5d8dfeadb1ac78f97206657e44f6f1b975d9da92509d4707f22df80ca5f3f168",
+      "git_blob_sha": "e88e812324bab9f1a48da8a47c63f251b72ded4c",
+      "bytes": 352611,
+      "active_lines": 16175
+    },
+    {
+      "path": "rule/Clash/ChinaIPs/ChinaIPsTest/README.md",
+      "sha256": "c6300e4dcff420d0bccff7dcea397ab964b4c9dab83ea6f592902b59e24a8e32",
+      "git_blob_sha": "14df1315f957e92e500ffc5490cd4aebcb9ffb9a",
+      "bytes": 9275,
+      "active_lines": 95
+    },
+    {
+      "path": "rule/Clash/ChinaIPs/ChinaIPs_Classical.yaml",
+      "sha256": "7374a972d15617501d579e1aceecda1a48a49a8146d45f62439cf002370345b3",
+      "git_blob_sha": "b4bac5595bf4246e9f0f2a3908f7febd85b3602f",
+      "bytes": 557008,
+      "active_lines": 19229
+    },
+    {
+      "path": "rule/Clash/ChinaIPs/ChinaIPs_Classical_No_IPv6.yaml",
+      "sha256": "0afd5953bd0bfeb28037d2b6214ef3b3bca4501744d7b5a086c6a8bffb1c2c84",
+      "git_blob_sha": "4faadf9cd0bed40d136d868b7646dd8f10de2b15",
+      "bytes": 378165,
+      "active_lines": 13598
+    },
+    {
+      "path": "rule/Clash/ChinaIPs/ChinaIPs_Classical_No_IPv6_No_Resolve.yaml",
+      "sha256": "a20ee9f4af9cdde09ff762473d1b4c201283e45945697eb8d4cbf1bcdd77442c",
+      "git_blob_sha": "be12bf6f15379da5ad4fa3d878539d27803b314b",
+      "bytes": 527732,
+      "active_lines": 13598
+    },
+    {
+      "path": "rule/Clash/ChinaIPs/ChinaIPs_Classical_No_Resolve.yaml",
+      "sha256": "9522a7678b92e06c7046781dbc746df418e3cf765b0f9e914153d083a02119e1",
+      "git_blob_sha": "1f66f2b5f0d7cfebfaf2ae6cffa033deb1216f34",
+      "bytes": 768516,
+      "active_lines": 19229
+    },
+    {
+      "path": "rule/Clash/ChinaIPs/ChinaIPs_IP.txt",
+      "sha256": "46ed6edddfdcaf0ddae32009d461f8d7192595bd6727be6eda7411657eef4501",
+      "git_blob_sha": "5332d855881d168b5834ccf86bb2bcb92e64f8d6",
+      "bytes": 320632,
+      "active_lines": 19228
+    },
+    {
+      "path": "rule/Clash/ChinaIPs/ChinaIPs_IP.yaml",
+      "sha256": "68b55350f215829d6b11c553215125b9353d167f05db6c53c56ba5c42176318f",
+      "git_blob_sha": "84bdb049c54a47d5e407a0a2f20662505d615a3a",
+      "bytes": 436009,
+      "active_lines": 19229
+    },
+    {
+      "path": "rule/Clash/ChinaIPs/ChinaIPs_IP_No_IPv6.txt",
+      "sha256": "2674a0bb487cb277a4f1a554abc68076ebe6ec0f8ba490c66feccada839671b5",
+      "git_blob_sha": "9e10a6ce5a548d82114814d0f52612c140a4ea94",
+      "bytes": 214992,
+      "active_lines": 13597
+    },
+    {
+      "path": "rule/Clash/ChinaIPs/ChinaIPs_IP_No_IPv6.yaml",
+      "sha256": "f620ed1c1f7b189247db934c6a12e3076c4bffbb3ddc1e0e9c7ea5f5ab29d98d",
+      "git_blob_sha": "ecefb9a6934bd0f02095e89a818534173b05c4cd",
+      "bytes": 296583,
+      "active_lines": 13598
+    },
+    {
+      "path": "rule/Clash/ChinaIPs/README.md",
+      "sha256": "fe8bfbd21ca124c3fb8442f1cf3d991ea23c036ef1b8e15f295bd6987477fe18",
+      "git_blob_sha": "947fc86fb9fae6723b100edba8b2afdbbd514a88",
+      "bytes": 7536,
+      "active_lines": 78
+    },
+    {
+      "path": "rule/Clash/ChinaMax/ChinaMax.list",
+      "sha256": "b2fb2fb853222808097b009b3b28b2dbb3fb4ddfb53dc96e14ad1dfd5ff8ac45",
+      "git_blob_sha": "ed2da8b780332e4cc92ebba2d7b0824d8d1bc3bd",
+      "bytes": 3438282,
+      "active_lines": 124476
+    },
+    {
+      "path": "rule/Clash/ChinaMax/ChinaMax.yaml",
+      "sha256": "18f900c4702740e76b5a8bff0f86b84112fc7019e11ad74bf0f5bac251b3c092",
+      "git_blob_sha": "011083ea15803665b0cc17510ba95dfab891c238",
+      "bytes": 1122,
+      "active_lines": 28
+    },
+    {
+      "path": "rule/Clash/ChinaMax/ChinaMax_Classical.yaml",
+      "sha256": "acf06f06390e3420d05f70016d86e74b9a1b79071bc89b34da175ec423b8a4c0",
+      "git_blob_sha": "1853023bc3ff107712ccf948d92500123717265c",
+      "bytes": 3798079,
+      "active_lines": 124477
+    },
+    {
+      "path": "rule/Clash/ChinaMax/ChinaMax_Classical_No_IPv6.yaml",
+      "sha256": "66e4181ac13162029f3103ab453994651af7f64761d5a3da0e183abc127640ac",
+      "git_blob_sha": "cdda45c8a5eeda80df628a51e3cf8b05c724a02d",
+      "bytes": 3661489,
+      "active_lines": 120168
+    },
+    {
+      "path": "rule/Clash/ChinaMax/ChinaMax_Classical_No_IPv6_No_Resolve.yaml",
+      "sha256": "f71e63197114bf748e78e4dfbd16a7f4fac591938981e2fa829ea84517fb804d",
+      "git_blob_sha": "236d3c1166b24f769abb9129953cbe1f37862fb8",
+      "bytes": 3752206,
+      "active_lines": 120168
+    },
+    {
+      "path": "rule/Clash/ChinaMax/ChinaMax_Classical_No_Resolve.yaml",
+      "sha256": "9cd4ca9f5e922071280d4674ca21669a93c1d41f18e9f637c388357e58ef8517",
+      "git_blob_sha": "325d0317b4c28aa69d8081d408425c20913f3c27",
+      "bytes": 3936195,
+      "active_lines": 124477
+    },
+    {
+      "path": "rule/Clash/ChinaMax/ChinaMax_Domain.txt",
+      "sha256": "e40ac3025f7dad0ec07fa21ea6210d4744dd3f4c3e97975460864f8a046d3b1b",
+      "git_blob_sha": "f04e2bf4a0313450231437a3495cb47eb67e1842",
+      "bytes": 1531093,
+      "active_lines": 111893
+    },
+    {
+      "path": "rule/Clash/ChinaMax/ChinaMax_Domain.yaml",
+      "sha256": "9e86aa70e5cd021477e1f712d39417b7002fde56594323e1a108130dc74ffb2b",
+      "git_blob_sha": "c58ddcbc80a9c046cb4ea248c91d972a964ad099",
+      "bytes": 2314085,
+      "active_lines": 111894
+    },
+    {
+      "path": "rule/Clash/ChinaMax/ChinaMax_Domain_For_Clash.txt",
+      "sha256": "2749b5ff1e3f98c67015f3ab0e997ef944a35d9f5cdef28c226e709e4e717c78",
+      "git_blob_sha": "ffd303938072ffbe5da62a297e8cb5ba0157b893",
+      "bytes": 1642718,
+      "active_lines": 111893
+    },
+    {
+      "path": "rule/Clash/ChinaMax/ChinaMax_IP.txt",
+      "sha256": "a58834b2c5bca5ccaa468adef2fc06aa7a14a2625574222230597785bb7a8269",
+      "git_blob_sha": "ad07bbf857e34f301cdf6e1fdd904439839e0be3",
+      "bytes": 210843,
+      "active_lines": 12556
+    },
+    {
+      "path": "rule/Clash/ChinaMax/ChinaMax_IP.yaml",
+      "sha256": "09980c5b1b0bd1d594d75f74502a0016d89d95bfa696ad7bb2f203337103080b",
+      "git_blob_sha": "d3815ea1a5426a504382b5f4213e234dc16f06ec",
+      "bytes": 286188,
+      "active_lines": 12557
+    },
+    {
+      "path": "rule/Clash/ChinaMax/ChinaMax_IP_No_IPv6.txt",
+      "sha256": "6a20a6c6f749ce0033bfcb0c2d8e205b67961e29ebfeb5526063278487f96444",
+      "git_blob_sha": "ab3a05082e90a27bb03640618a91735333ec6c7a",
+      "bytes": 130263,
+      "active_lines": 8246
+    },
+    {
+      "path": "rule/Clash/ChinaMax/ChinaMax_IP_No_IPv6.yaml",
+      "sha256": "289984e857a3636d69f4c3a4e0892c406f0d7f31483b4835cc9a990990f05160",
+      "git_blob_sha": "8a24cc912f6bc528451559ce3aff0b010102d526",
+      "bytes": 179748,
+      "active_lines": 8247
+    },
+    {
+      "path": "rule/Clash/ChinaMax/ChinaMax_No_Resolve.yaml",
+      "sha256": "18f900c4702740e76b5a8bff0f86b84112fc7019e11ad74bf0f5bac251b3c092",
+      "git_blob_sha": "011083ea15803665b0cc17510ba95dfab891c238",
+      "bytes": 1122,
+      "active_lines": 28
+    },
+    {
+      "path": "rule/Clash/ChinaMax/README.md",
+      "sha256": "7fb752c6ce94dc0801de787787f39f1c7902314d5d548db3df4218227955f05c",
+      "git_blob_sha": "41d4e6c184eb878e75471456d7c43c8988571e8f",
+      "bytes": 39653,
+      "active_lines": 452
+    },
+    {
+      "path": "rule/Clash/ChinaMaxNoIP/ChinaMaxNoIP.list",
+      "sha256": "962156f7b85f24a016d9061406456fbeb264081b5edfe5b62bb576b163cf856d",
+      "git_blob_sha": "d7d491b811e0d5d7ba3fcfb9f73f48cb899d4392",
+      "bytes": 2975186,
+      "active_lines": 111592
+    },
+    {
+      "path": "rule/Clash/ChinaMaxNoIP/ChinaMaxNoIP_Classical.yaml",
+      "sha256": "46191429d8c20dea17ae89d2b4140b37e82f6abcff852180124794de6272143d",
+      "git_blob_sha": "ba6005cf50793ef68b3373e484e433b7950876f2",
+      "bytes": 3421563,
+      "active_lines": 111593
+    },
+    {
+      "path": "rule/Clash/ChinaMaxNoIP/ChinaMaxNoIP_Classical_No_Resolve.yaml",
+      "sha256": "46191429d8c20dea17ae89d2b4140b37e82f6abcff852180124794de6272143d",
+      "git_blob_sha": "ba6005cf50793ef68b3373e484e433b7950876f2",
+      "bytes": 3421563,
+      "active_lines": 111593
+    },
+    {
+      "path": "rule/Clash/ChinaMaxNoIP/ChinaMaxNoIP_Domain.txt",
+      "sha256": "a6a2a2e68dc729b0e659f33ddd53a7dc7c46db5cab8cf391d64010de45097eb6",
+      "git_blob_sha": "a388822c7dc6e15dc5fea415cfc09a5ccf918e00",
+      "bytes": 1525704,
+      "active_lines": 111565
+    },
+    {
+      "path": "rule/Clash/ChinaMaxNoIP/ChinaMaxNoIP_Domain.yaml",
+      "sha256": "0989b8790ced536978f9a43a17d94536cf05f4ee97f0a5321ce85a54dd7f7560",
+      "git_blob_sha": "fe320fa114df9ec2db1c459e71b6ad1506aed05a",
+      "bytes": 2306401,
+      "active_lines": 111566
+    },
+    {
+      "path": "rule/Clash/ChinaMaxNoIP/ChinaMaxNoIP_Domain_For_Clash.txt",
+      "sha256": "b4b125d5c8ed1ee43b6f26c43a1306f51451e05af19198b0abeb3ef2f9a78809",
+      "git_blob_sha": "8d0deb58a00187fc1204508317ad2ef2f18f8d3c",
+      "bytes": 1637002,
+      "active_lines": 111565
+    },
+    {
+      "path": "rule/Clash/ChinaMaxNoMedia/ChinaMaxNoMedia.list",
+      "sha256": "cbcbaed0d29b06e79250d3fec25752a1ffbce5eaffac660d9bbdd34cbe61f6f7",
+      "git_blob_sha": "8e8d13901903bb6a3f9013889d5e8b82cfaf245d",
+      "bytes": 3425782,
+      "active_lines": 124038
+    },
+    {
+      "path": "rule/Clash/ChinaMaxNoMedia/ChinaMaxNoMedia.yaml",
+      "sha256": "3d7386ef4e500b4ff779d31a220c9112b36457e280dd99a58fb1c84f57f056fa",
+      "git_blob_sha": "c35b4fc0c9ae867eaa12c3bbaf1ab27a439cf3dd",
+      "bytes": 1077,
+      "active_lines": 26
+    },
+    {
+      "path": "rule/Clash/ChinaMaxNoMedia/ChinaMaxNoMedia_Classical.yaml",
+      "sha256": "94fa1041d01b84668f5fe60e1c9475f096f5981016f7dcba1ee31497e167cb5a",
+      "git_blob_sha": "572dc7f7e82802111d280fe7fd53fc092eed524d",
+      "bytes": 3783827,
+      "active_lines": 124039
+    },
+    {
+      "path": "rule/Clash/ChinaMaxNoMedia/ChinaMaxNoMedia_Classical_No_Resolve.yaml",
+      "sha256": "95a7951f38bf5ebfc0c5a7e6951b261367755af37eaa2b6258ced6fcf981c83f",
+      "git_blob_sha": "12866ff5fd64a8a8feebb5d6ecd2863e1d0b955b",
+      "bytes": 3921943,
+      "active_lines": 124039
+    },
+    {
+      "path": "rule/Clash/ChinaMaxNoMedia/ChinaMaxNoMedia_Domain.txt",
+      "sha256": "db2de4063323bfedc0f86e52cb073332d5fa7e56fba6e198508fee295ad5f959",
+      "git_blob_sha": "0f780808d2b2743dfbd8d516a205b7dd9a30d72d",
+      "bytes": 1524299,
+      "active_lines": 111457
+    },
+    {
+      "path": "rule/Clash/ChinaMaxNoMedia/ChinaMaxNoMedia_Domain.yaml",
+      "sha256": "2d27591b24655c981c90de93565d93770c2274281758566c70fb8677e33dba41",
+      "git_blob_sha": "68017e97d51a9daf7f3f09d354061dffb4393f55",
+      "bytes": 2304240,
+      "active_lines": 111458
+    },
+    {
+      "path": "rule/Clash/ChinaMaxNoMedia/ChinaMaxNoMedia_Domain_For_Clash.txt",
+      "sha256": "6b2de473f23474fd55f6f758ae7324cfc5c2e630d5c8ccb1c9ab58fb6fca52c7",
+      "git_blob_sha": "b614291e77bcb6df9b62a7c7bdeaa88aba000ca1",
+      "bytes": 1635489,
+      "active_lines": 111457
+    },
+    {
+      "path": "rule/Clash/ChinaMaxNoMedia/ChinaMaxNoMedia_IP.txt",
+      "sha256": "0a0840a9838202a66891cb2e2291682d189fbba0e4a417b8166c3e3e418dbd2b",
+      "git_blob_sha": "c3e92876bef8ea1f65ba6643c02c37de9c040c70",
+      "bytes": 210850,
+      "active_lines": 12556
+    },
+    {
+      "path": "rule/Clash/ChinaMaxNoMedia/ChinaMaxNoMedia_IP.yaml",
+      "sha256": "71fc69c847d0ae126425a3f51f173ee3fdd3754334e85ee55d176c30dae9d4e1",
+      "git_blob_sha": "9eda91e01b7459159d7230c021eb4bc8e68fdbd3",
+      "bytes": 286195,
+      "active_lines": 12557
+    },
+    {
+      "path": "rule/Clash/ChinaMaxNoMedia/ChinaMaxNoMedia_No_Resolve.yaml",
+      "sha256": "3d7386ef4e500b4ff779d31a220c9112b36457e280dd99a58fb1c84f57f056fa",
+      "git_blob_sha": "c35b4fc0c9ae867eaa12c3bbaf1ab27a439cf3dd",
+      "bytes": 1077,
+      "active_lines": 26
+    },
+    {
+      "path": "rule/Clash/ChinaMaxNoMedia/README.md",
+      "sha256": "16f741aede7b421177b5fff6b58ccb87df515218d18ef92d19fcb45b6d05c983",
+      "git_blob_sha": "26637077df4ad4a65232fb6ac6e1d787ece12959",
+      "bytes": 36875,
+      "active_lines": 422
+    },
+    {
+      "path": "rule/Clash/Game/Game.list",
+      "sha256": "81e8ceb4f590806c2f60537059bd20a26165d736acf975776e3377a1153ea15f",
+      "git_blob_sha": "958d41dfc504403e6806f09efdd575973ca845b9",
+      "bytes": 19223,
+      "active_lines": 597
+    },
+    {
+      "path": "rule/Clash/Game/Game.yaml",
+      "sha256": "cafe5139183558e686e6ffbf7459423ca564359e7312b573a4c9c650715d8c4b",
+      "git_blob_sha": "d9ee70dbef2a77e3c2f0d4c0027dc0b233039c6f",
+      "bytes": 21114,
+      "active_lines": 598
+    },
+    {
+      "path": "rule/Clash/Game/Game_No_Resolve.yaml",
+      "sha256": "2dda1675c0df03cb61ec8d599f5606982924488b5c7cdcc3cc61925165d4e6cd",
+      "git_blob_sha": "7a2fa74dc6cb1029a81e0cc56cd88d9254109f38",
+      "bytes": 21620,
+      "active_lines": 598
+    },
+    {
+      "path": "rule/Clash/Global/Global.list",
+      "sha256": "29bbe7ffad77e368db6d5d2cf3753feb6e6c9f46a9f8cc9f975d1b17409e42e8",
+      "git_blob_sha": "79601d6c0715964f3fc76c0156625050873187c4",
+      "bytes": 1011323,
+      "active_lines": 35183
+    },
+    {
+      "path": "rule/Clash/Global/Global.yaml",
+      "sha256": "fc8cd36fbfd5fdf7daf2121fe266adfcc45f4bdf8dae3c190d5bc424e91f7574",
+      "git_blob_sha": "0b47307c13dcb56540a4e84ac24390139217cce7",
+      "bytes": 4573,
+      "active_lines": 157
+    },
+    {
+      "path": "rule/Clash/Global/Global_Classical.yaml",
+      "sha256": "3d86775d62bca900ee304b361c002b5184e72bc28ed25f881b87b40309ef7dc3",
+      "git_blob_sha": "35eced94e96e7d7cc45ae6ac9e392f7cb30bcd81",
+      "bytes": 1150755,
+      "active_lines": 35184
+    },
+    {
+      "path": "rule/Clash/Global/Global_Classical_No_Resolve.yaml",
+      "sha256": "a97c2a470def7dd61b0336ff8e219c28dc676af57806475f2fc221539c5a0d4d",
+      "git_blob_sha": "a5460aa776d3c2d16a56533fa1c0fa7abd6c6500",
+      "bytes": 1152064,
+      "active_lines": 35184
+    },
+    {
+      "path": "rule/Clash/Global/Global_Domain.txt",
+      "sha256": "2d31cd5b5219ef275c29d72ed035efb44e02526c399ac4aecd6a5a0550b30a02",
+      "git_blob_sha": "4413a8077f9d018d30306db34524cc7588ee1dbd",
+      "bytes": 551730,
+      "active_lines": 35027
+    },
+    {
+      "path": "rule/Clash/Global/Global_Domain.yaml",
+      "sha256": "fc634bc2b7114195341b99dcb174636fbdf27a6128e3e63f46a1d049cfd32096",
+      "git_blob_sha": "5b1028323bb53dabc1ca49cf7624236a68573503",
+      "bytes": 796801,
+      "active_lines": 35028
+    },
+    {
+      "path": "rule/Clash/Global/Global_Domain_For_Clash.txt",
+      "sha256": "6262c9b38c42c6972025812235bf277ec071b11f6d5b70c75231888ee118f65c",
+      "git_blob_sha": "79f1a91c2d3a87074796162a3c59c08a2514b6ee",
+      "bytes": 586630,
+      "active_lines": 35027
+    },
+    {
+      "path": "rule/Clash/Global/Global_No_Resolve.yaml",
+      "sha256": "f1cc2afbb8ce6f55069884ba05bbb83e472c28ceeee0ee83d454a97e4b9cf456",
+      "git_blob_sha": "93037e0ebaf77f30c30816d8c49cf71e34146ded",
+      "bytes": 5882,
+      "active_lines": 157
+    },
+    {
+      "path": "rule/Clash/Global/README.md",
+      "sha256": "f270a2309c0274684e6376fa73e86983416a5dd9df45a54e05c71c37de7f0a7e",
+      "git_blob_sha": "2aa1b532ae995ea6899b3e7bc1c8c44b1d0c207f",
+      "bytes": 5998,
+      "active_lines": 80
+    },
+    {
+      "path": "rule/Loon/Advertising/Advertising.list",
+      "sha256": "e2d680caadaccd14dd72ec65abafcc1e367c83499d770ff227db54e2dbce14d9",
+      "git_blob_sha": "d53ae7d496559e762a9e5f1b6b371baf374e6669",
+      "bytes": 26870,
+      "active_lines": 781
+    },
+    {
+      "path": "rule/Loon/Advertising/Advertising_Domain.list",
+      "sha256": "646920dbe47a49c7dc9fce19d08343fc4eb6656ee665d57fcc1b205e8721e31b",
+      "git_blob_sha": "f8750054466a16ebf994fa4450f225ce666fa1f3",
+      "bytes": 5787676,
+      "active_lines": 286254
+    },
+    {
+      "path": "rule/Loon/Advertising/Advertising_Resolve.list",
+      "sha256": "f57d848241b759868745864b585d3be50fdc15c5a4aceafdce38860cad9c7c90",
+      "git_blob_sha": "83648877da60711ecbd3f49f07588b1499d727fd",
+      "bytes": 21491,
+      "active_lines": 781
+    },
+    {
+      "path": "rule/Loon/Advertising/README.md",
+      "sha256": "2d19638d948784dbdcf65ea06a51e2880422c6e153e8c426e724816d881426d9",
+      "git_blob_sha": "a2c401ad5ae93820dc1d87dd91ec7f2742af930b",
+      "bytes": 5444,
+      "active_lines": 64
+    },
+    {
+      "path": "rule/Loon/AdvertisingTest/AdvertisingTest.list",
+      "sha256": "cfd9ca687c2d02a4a99bc14f18cc1a71a728e8be9cef978a8c7e0d79da9d2739",
+      "git_blob_sha": "cd016bcdcaf08c531f5e9a268edb210624ef1712",
+      "bytes": 27707,
+      "active_lines": 805
+    },
+    {
+      "path": "rule/Loon/AdvertisingTest/AdvertisingTest_Domain.list",
+      "sha256": "e25a9f2ae18ac3cad9b3f4600e488730d9a95ccf7b78fabc4d749c48be132275",
+      "git_blob_sha": "08ff044a512442a7ca92f207e5f206775f76a1f3",
+      "bytes": 6225471,
+      "active_lines": 310845
+    },
+    {
+      "path": "rule/Loon/AdvertisingTest/AdvertisingTest_Resolve.list",
+      "sha256": "28c15f90c5905d6baae4fc4306ef7f82c838f8afab10c35f3f71e22610e9949d",
+      "git_blob_sha": "8280e2ee4cd211295ab17c5e8360bf66dc3b670c",
+      "bytes": 22086,
+      "active_lines": 805
+    },
+    {
+      "path": "rule/Loon/AdvertisingTest/README.md",
+      "sha256": "9902286443b5524b051ff10a184380bdff653562e8274701c692b2594af40972",
+      "git_blob_sha": "8f7ed0647893609cf0cadafd03a18d14e95bb7d2",
+      "bytes": 7365,
+      "active_lines": 82
+    },
+    {
+      "path": "rule/Loon/Blizzard/Blizzard.list",
+      "sha256": "148f4ff869a482b49c81fbd606075712a6f72bd70ab2ee521ebeb6dcc44aaa89",
+      "git_blob_sha": "2c9fd8e940d461e40b2f6443a9d19ea58b6cc383",
+      "bytes": 2304,
+      "active_lines": 62
+    },
+    {
+      "path": "rule/Loon/Blizzard/Blizzard_Resolve.list",
+      "sha256": "3c0eb699037c24d6521ab4471d9ec07c11d799892317fe1ef2b079df06e03089",
+      "git_blob_sha": "d29a59dc0e9e634059956fd5d160f96b40968de7",
+      "bytes": 2051,
+      "active_lines": 62
+    },
+    {
+      "path": "rule/Loon/ChinaIPs/ChinaIPs.list",
+      "sha256": "b78ac5d81c5b748294050fa3879b7bebd521538ec6f9dbf9e08a309046a3c3e7",
+      "git_blob_sha": "3922961703a7afe51133200756bf56ccc457bb85",
+      "bytes": 691595,
+      "active_lines": 19228
+    },
+    {
+      "path": "rule/Loon/ChinaIPs/ChinaIPsTest/ChinaIPsTest.list",
+      "sha256": "1f268dd948d1c814715e4699399b92d101262fb0c666e51c5b04ebbfd814adb8",
+      "git_blob_sha": "0937a7c969e8af80b949416f24e240fd306cea5c",
+      "bytes": 827903,
+      "active_lines": 23029
+    },
+    {
+      "path": "rule/Loon/ChinaIPs/ChinaIPsTest/ChinaIPsTest_No_IPv6.list",
+      "sha256": "da8f352fbfbfe0c8186298119720d2cfe10baeebdf589474bfe6dae79cc47b54",
+      "git_blob_sha": "85ff60822c5971e0f57bd277672cd9deb04ab7d2",
+      "bytes": 562864,
+      "active_lines": 16174
+    },
+    {
+      "path": "rule/Loon/ChinaIPs/ChinaIPsTest/ChinaIPsTest_No_IPv6_Resolve.list",
+      "sha256": "f3dfa6b5398b572720c1f03443319a87d0aa11dbdee225bd0722bd267f0ec078",
+      "git_blob_sha": "01e547a94df2d489a18aa90164e2db3062dbdd64",
+      "bytes": 384950,
+      "active_lines": 16174
+    },
+    {
+      "path": "rule/Loon/ChinaIPs/ChinaIPsTest/ChinaIPsTest_Resolve.list",
+      "sha256": "8c12dfaa2d108a10dfb2017de379f25475883a060052a4322ba5915e436b0253",
+      "git_blob_sha": "475ec8c090db088bf917f21476950257f7332d34",
+      "bytes": 574584,
+      "active_lines": 23029
+    },
+    {
+      "path": "rule/Loon/ChinaIPs/ChinaIPsTest/README.md",
+      "sha256": "92ce2eb2f775c65e90b5e1ab3058cae865c9c62c965004d7f44cbef1e08d17e4",
+      "git_blob_sha": "576be0f3937340acaa99b8146c4950e65cf89c51",
+      "bytes": 5002,
+      "active_lines": 62
+    },
+    {
+      "path": "rule/Loon/ChinaIPs/ChinaIPs_No_IPv6.list",
+      "sha256": "c21dbe299234c0b990359ed0d6b48e758c28a361d4d2417ec9828c2980942109",
+      "git_blob_sha": "c2db9e0b7930db7bb24cf5e4532b2c908864e7f4",
+      "bytes": 473335,
+      "active_lines": 13597
+    },
+    {
+      "path": "rule/Loon/ChinaIPs/ChinaIPs_No_IPv6_Resolve.list",
+      "sha256": "8c880cd7aa3f89d15fa3f0e753ced3d4bb2091c64b1688c880d7de48cdbfe323",
+      "git_blob_sha": "b399fd3e21d4893eef0e2488dc736be91d84d6ce",
+      "bytes": 323768,
+      "active_lines": 13597
+    },
+    {
+      "path": "rule/Loon/ChinaIPs/ChinaIPs_Resolve.list",
+      "sha256": "f738bc0436e01298fc716de2f52f89052338125bb2f0956dbd4f3513cd4b3797",
+      "git_blob_sha": "7aa136cdbee058f041ae47abbec47be84b51370a",
+      "bytes": 480087,
+      "active_lines": 19228
+    },
+    {
+      "path": "rule/Loon/ChinaIPs/README.md",
+      "sha256": "fad3e4a3fdf119b5bf18546a85279779c515312c3deaca6c933d0bc4720db262",
+      "git_blob_sha": "e23e8eaa17f7bfa89e41b3ace3b6a6cacacb38ef",
+      "bytes": 3722,
+      "active_lines": 45
+    },
+    {
+      "path": "rule/Loon/ChinaMax/ChinaMax.list",
+      "sha256": "92efbad79e1579eec1662aafe436ecba63c8b7f7223b3b55d8177bd25090d034",
+      "git_blob_sha": "4f8406b3e48b8fd1cbf1f76308175fbb421311dd",
+      "bytes": 456877,
+      "active_lines": 12685
+    },
+    {
+      "path": "rule/Loon/ChinaMax/ChinaMax_Domain.list",
+      "sha256": "3ce50d2a7bb69b7d981c4404bf8be3283e0a59c81e934e7185373cef5d3bd957",
+      "git_blob_sha": "16e47087f2841afdc5c4d53026bd3c6727b328fd",
+      "bytes": 1530546,
+      "active_lines": 111842
+    },
+    {
+      "path": "rule/Loon/ChinaMax/ChinaMax_No_IPv6.list",
+      "sha256": "8ad1c581db4b340055c59c0f7fdd47986d35ddaa383577ee60c25c014f4ad64a",
+      "git_blob_sha": "6aa7d1abafa730d9573d842b08a3dc32467e5ffe",
+      "bytes": 290124,
+      "active_lines": 8376
+    },
+    {
+      "path": "rule/Loon/ChinaMax/ChinaMax_No_IPv6_Resolve.list",
+      "sha256": "8ebc134274ba7c5ac101dd869be54f982d09d118cf01b38e8db7c004dcaf9763",
+      "git_blob_sha": "da114190d9037c9a71785272dafe452a5e047e0b",
+      "bytes": 199407,
+      "active_lines": 8376
+    },
+    {
+      "path": "rule/Loon/ChinaMax/ChinaMax_Resolve.list",
+      "sha256": "ad925dc96868fb5241fe08f63595427fb29b9b1b885d221b86bfcf62d53b90ff",
+      "git_blob_sha": "67df87e2be5d97b8a3d4d032969f19fa571d5769",
+      "bytes": 318761,
+      "active_lines": 12685
+    },
+    {
+      "path": "rule/Loon/ChinaMax/README.md",
+      "sha256": "ce2961e8917125836e9e5458b13afc7dbd465684008106293cd1c815400ab34f",
+      "git_blob_sha": "9f5e7483104ccae69ccc350512b8bf098b2f827b",
+      "bytes": 34381,
+      "active_lines": 404
+    },
+    {
+      "path": "rule/Loon/ChinaMaxNoIP/ChinaMaxNoIP.list",
+      "sha256": "c76b47f20fdec1eea36c1abce098465f3ee4ddc28f56974599436f879c912af8",
+      "git_blob_sha": "17dd8c0b19c9502dc15d83eecb8ef48392d6427e",
+      "bytes": 3305,
+      "active_lines": 125
+    },
+    {
+      "path": "rule/Loon/ChinaMaxNoMedia/ChinaMaxNoMedia.list",
+      "sha256": "6ffa13a8dd5dd3c3815c5de6562f212ca4b4b377d35f05cead464e7a82676093",
+      "git_blob_sha": "a3d1478bfd2b136f6a835a7d101538c72fc13eaa",
+      "bytes": 456758,
+      "active_lines": 12679
+    },
+    {
+      "path": "rule/Loon/ChinaMaxNoMedia/ChinaMaxNoMedia_Domain.list",
+      "sha256": "4101f75248990525fe9225268d600303b5a946f3bceb276c2cb14fc4d8248ee6",
+      "git_blob_sha": "5dad5f9b1356d4c9bb367329c791388e53c00e90",
+      "bytes": 1523782,
+      "active_lines": 111410
+    },
+    {
+      "path": "rule/Loon/ChinaMaxNoMedia/ChinaMaxNoMedia_Resolve.list",
+      "sha256": "03f1d578935f40cb20827152862fd832b29d0544854bd043763b61c13a768f4d",
+      "git_blob_sha": "d35929a30d5df671d9a54d62dbdb2ea8be3316d8",
+      "bytes": 318642,
+      "active_lines": 12679
+    },
+    {
+      "path": "rule/Loon/ChinaMaxNoMedia/README.md",
+      "sha256": "f347f856093fa8604989247391ca8e0de42ab8d25a4702c445a37864508a418f",
+      "git_blob_sha": "bb32187639ce02e3a1884dd5ea1bd7a482c1b809",
+      "bytes": 33482,
+      "active_lines": 393
+    },
+    {
+      "path": "rule/Loon/Game/Game.list",
+      "sha256": "81e8ceb4f590806c2f60537059bd20a26165d736acf975776e3377a1153ea15f",
+      "git_blob_sha": "958d41dfc504403e6806f09efdd575973ca845b9",
+      "bytes": 19223,
+      "active_lines": 597
+    },
+    {
+      "path": "rule/Loon/Game/Game_Resolve.list",
+      "sha256": "1e1f4ff2c32f944d09f349807637e67b0e74f4aac8f6bc60268ce73f6f2259a4",
+      "git_blob_sha": "6723d2f7814e8c58e86678f62024b7261fbfc0b7",
+      "bytes": 18717,
+      "active_lines": 597
+    },
+    {
+      "path": "rule/Loon/Global/Global.list",
+      "sha256": "ed31ec935d76b312f658b184268afb8c7a6ba26171db07f621c072154fffa72f",
+      "git_blob_sha": "3d85f0a8a012df5d726188625c4d684bf2ce6b25",
+      "bytes": 6218,
+      "active_lines": 201
+    },
+    {
+      "path": "rule/Loon/Global/Global_Domain.list",
+      "sha256": "991e6199726b43e8e54ce264bf22999b58b39fdf45e0f92d10dbb3196a164324",
+      "git_blob_sha": "cbcc4de1bbeb0e623bb62c921f2380eb9ada2bd0",
+      "bytes": 551729,
+      "active_lines": 35027
+    },
+    {
+      "path": "rule/Loon/Global/Global_Resolve.list",
+      "sha256": "dabffc6e6f89721078f5a29237990d2d3ae3edf403872d655332e22ae171c77d",
+      "git_blob_sha": "d4334f507f40e63490514389b20cc28aacdfa3f8",
+      "bytes": 4909,
+      "active_lines": 201
+    },
+    {
+      "path": "rule/Loon/Global/README.md",
+      "sha256": "2e97e75cff2eab1c927094839e34d7b4417b5750ae85629fb9b4341c25130221",
+      "git_blob_sha": "fc54917a35f7a3ee9102a57516acb7b76fbc647e",
+      "bytes": 4446,
+      "active_lines": 64
+    },
+    {
+      "path": "rule/Loon/GlobalMedia/GlobalMedia.list",
+      "sha256": "58b12feef7998d92a61da653a0af097bb07268631fafc9647df293d2ec89f71e",
+      "git_blob_sha": "2c36f27452c60a67b42ac42c366be4a5b799bdae",
+      "bytes": 35624,
+      "active_lines": 1021
+    },
+    {
+      "path": "rule/Loon/GlobalMedia/GlobalMedia_Resolve.list",
+      "sha256": "a6477e4ae2b348991e4363799b9336bda2b9dda17093dae91319ee6901f51be0",
+      "git_blob_sha": "6bb5c496be122821090599cda50a37b491efbe4d",
+      "bytes": 25460,
+      "active_lines": 1021
+    },
+    {
+      "path": "rule/QuantumultX/Advertising/Advertising.list",
+      "sha256": "7cbdc00922e0f61e5ba65c97c8b02ecb3c8f1fd0866d57bedf96227fbf7d208f",
+      "git_blob_sha": "295ef1056accef5395beb9c9c92f2428f4c663fe",
+      "bytes": 12301982,
+      "active_lines": 287021
+    },
+    {
+      "path": "rule/QuantumultX/Advertising/README.md",
+      "sha256": "d1f55009a2e83f24ef5cda3e4b23689f0ccc84a25bd21bebc7668061cc30f9e6",
+      "git_blob_sha": "a58590f9156e9e87be1c1d4b9821ffe30f5eee4d",
+      "bytes": 5013,
+      "active_lines": 60
+    },
+    {
+      "path": "rule/QuantumultX/AdvertisingTest/AdvertisingTest.list",
+      "sha256": "ab45159bc6f2749e7826640403a11b08496058db0138e9aa1b6aa6c2d5c70ff6",
+      "git_blob_sha": "a16af10176b09ece2a7072e53e44d307cc9fae4c",
+      "bytes": 14572457,
+      "active_lines": 311636
+    },
+    {
+      "path": "rule/QuantumultX/AdvertisingTest/README.md",
+      "sha256": "90cb5f55e7aeaec769108daa98aa6b9904c4c10811fd736561d72518cbdcc7a4",
+      "git_blob_sha": "d43665a9d97e0c1abbbc45252632e4dcf0a77f9b",
+      "bytes": 6910,
+      "active_lines": 78
+    },
+    {
+      "path": "rule/QuantumultX/Apple/Apple.list",
+      "sha256": "98ae58125c090f6da172a80f7e2eedfa7d33a0bb9315e107ac4df2e7ef2d5bb7",
+      "git_blob_sha": "18e0fd45b5eb267f8d39b1a975143d234e106d31",
+      "bytes": 67283,
+      "active_lines": 1881
+    },
+    {
+      "path": "rule/QuantumultX/Blizzard/Blizzard.list",
+      "sha256": "018b6080d26618bbd33793f8f394a24e16da5d0bf270bf7966b787191a5ebce9",
+      "git_blob_sha": "89ee1b874c1e062f5547f58c3d9f87fb8e13153c",
+      "bytes": 2529,
+      "active_lines": 62
+    },
+    {
+      "path": "rule/QuantumultX/ChinaIPs/ChinaIPs.list",
+      "sha256": "9c594d6349db5952ebf65afb74dc01db5815f67d385fa8a4f3b3db46f6f2d547",
+      "git_blob_sha": "4a1bc4bc89b9df73d68bbafe19aaab352f7afec1",
+      "bytes": 653139,
+      "active_lines": 19228
+    },
+    {
+      "path": "rule/QuantumultX/ChinaIPs/ChinaIPsTest/ChinaIPsTest.list",
+      "sha256": "9d849e08d5f00c580018e3a149d37e67816f55335680791ab74c157364dd7450",
+      "git_blob_sha": "ba37a63cd91e841b69e22f3fe790c717485911ba",
+      "bytes": 873961,
+      "active_lines": 23029
+    },
+    {
+      "path": "rule/QuantumultX/ChinaIPs/ChinaIPsTest/ChinaIPsTest_No_IPv6.list",
+      "sha256": "02cf893e26b2414707ea22a0c0b7234c3c53641e1dc42079845e07dc13bdfb3b",
+      "git_blob_sha": "c9500e1645713fe739b32d7393b5dba8ea24582c",
+      "bytes": 595212,
+      "active_lines": 16174
+    },
+    {
+      "path": "rule/QuantumultX/ChinaIPs/ChinaIPsTest/README.md",
+      "sha256": "31b3958052612a2ca6c43d2bb12cda967cb6542863994bd61491625a0fefe05e",
+      "git_blob_sha": "9586deda6b17fbb3e8c1da2cce0603518c8474b7",
+      "bytes": 4550,
+      "active_lines": 57
+    },
+    {
+      "path": "rule/QuantumultX/ChinaIPs/ChinaIPs_No_IPv6.list",
+      "sha256": "bad175c051d9f8c5516d846bdda35e94d4213d044e74e74b39da89129662bd5f",
+      "git_blob_sha": "698ddcb55118d02bbcbd7ffa5f7d43f83cabdd20",
+      "bytes": 446141,
+      "active_lines": 13597
+    },
+    {
+      "path": "rule/QuantumultX/ChinaIPs/README.md",
+      "sha256": "a4646d9dbb7e5e66de80a69a6e78b27d22d263fcc0cb7b76cd10b8a972720aba",
+      "git_blob_sha": "a73a681615a7c89762a1aa1ddb2594b5614c2d94",
+      "bytes": 3302,
+      "active_lines": 40
+    },
+    {
+      "path": "rule/QuantumultX/ChinaMax/ChinaMax.list",
+      "sha256": "bf14a020ed35a49fae6f05bc6abb478947411e207e7a8c009ab0a82015bc5730",
+      "git_blob_sha": "2b65dfe4d4c73c1d80f659acf13681930df59e1f",
+      "bytes": 4198362,
+      "active_lines": 124528
+    },
+    {
+      "path": "rule/QuantumultX/ChinaMax/ChinaMax_No_IPv6.list",
+      "sha256": "f4a9c87c11b4ed0299a987831d126c7d71034081046adeaaa8fee5b9ea914380",
+      "git_blob_sha": "6cf06301c7762e64fca37e526bbaf6dcbc6cced7",
+      "bytes": 4040227,
+      "active_lines": 120219
+    },
+    {
+      "path": "rule/QuantumultX/ChinaMax/README.md",
+      "sha256": "ca6f8c2b4caf4e20bb5dbe4162c1480b6027220b0516b40ed3ab34b784c62f36",
+      "git_blob_sha": "fa65b19ceadda5574b5f2859d8ca125c0a407838",
+      "bytes": 33887,
+      "active_lines": 400
+    },
+    {
+      "path": "rule/QuantumultX/ChinaMaxNoIP/ChinaMaxNoIP.list",
+      "sha256": "c2ce30fe026121b251dd5493cdd0abf688eb83ee08b15cccf52edc343e838721",
+      "git_blob_sha": "0719a6b28f3377be1fa609fb3a8626dbd1824b9f",
+      "bytes": 4204658,
+      "active_lines": 111644
+    },
+    {
+      "path": "rule/QuantumultX/ChinaMaxNoMedia/ChinaMaxNoMedia.list",
+      "sha256": "588da3ccbb0b86c1c7d45e791e4e61430a3a53211f8c8c2856f9bf7c79b0e623",
+      "git_blob_sha": "fd8b2659e88a2e589bf34774a80ba5e2fa255c33",
+      "bytes": 5051426,
+      "active_lines": 124090
+    },
+    {
+      "path": "rule/QuantumultX/ChinaMaxNoMedia/README.md",
+      "sha256": "eab142cb871765a8dcd975ccadacac8a68793a4c6478c23f36ae00d9511ddf8c",
+      "git_blob_sha": "7b586646949a86aac3a8c5c146e7c11327b87a1e",
+      "bytes": 33313,
+      "active_lines": 392
+    },
+    {
+      "path": "rule/QuantumultX/Game/Game.list",
+      "sha256": "5ca00a61a7421b9b6492cb6442b3dde4d9330ecb5d7785d1c315e651fb5aab86",
+      "git_blob_sha": "0bac63e70e8ab41268ad6e31675ea74577d69d97",
+      "bytes": 20594,
+      "active_lines": 597
+    },
+    {
+      "path": "rule/QuantumultX/Global/Global.list",
+      "sha256": "ad145ee470c6f47cd9f97bcc5039e23f7d50d1749e3a2f6d1fe053c5d36ceffc",
+      "git_blob_sha": "59234d0086af6a2d0f5f823536d76e5be67cddde",
+      "bytes": 1214188,
+      "active_lines": 35914
+    },
+    {
+      "path": "rule/QuantumultX/Global/README.md",
+      "sha256": "cd1764a0fd98992b00a6f44f01a0530e21b11236fba78920a716a4c5cb1de483",
+      "git_blob_sha": "738165262a0da54a3f4d60fd7604a3935631ff5e",
+      "bytes": 4221,
+      "active_lines": 62
+    },
+    {
+      "path": "rule/QuantumultX/GlobalMedia/GlobalMedia.list",
+      "sha256": "3b0151ba6368818b30a8ded9c09311f1abdc3e8c5722bf4d43550988da7b1af7",
+      "git_blob_sha": "4bd55b257153d13362c5231bd7324fd1ba951230",
+      "bytes": 88663,
+      "active_lines": 2341
+    },
+    {
+      "path": "rule/Shadowrocket/Advertising/Advertising.list",
+      "sha256": "5ed67f498bc7b7e065b5a5ba5c3cdedce9f7b867ee0f1757cbbc5072eaeb4aec",
+      "git_blob_sha": "f81ec193ecd1bf93aed21fdcdef1ea5db845c8a0",
+      "bytes": 26853,
+      "active_lines": 781
+    },
+    {
+      "path": "rule/Shadowrocket/Advertising/Advertising_Domain.list",
+      "sha256": "1cab2bff8d759b0151f072dfb7c99641c5697e94c1024bed21b3846b40873a86",
+      "git_blob_sha": "6d9dd26581948a406ab57ee1dd6d4c4207c115d7",
+      "bytes": 5787662,
+      "active_lines": 286254
+    },
+    {
+      "path": "rule/Shadowrocket/Advertising/Advertising_Resolve.list",
+      "sha256": "93b429b6c4a9ac27da30fd3e9044ce063f9bc9a7b02a01f995e77eec09d30bd6",
+      "git_blob_sha": "90aab051263829f85aedc1d51eea981545353844",
+      "bytes": 21474,
+      "active_lines": 781
+    },
+    {
+      "path": "rule/Shadowrocket/Advertising/README.md",
+      "sha256": "5cc024acbaef69fe29fcf7a452da94ecd7a3befa8ea9e4f46dd28ad627ab738a",
+      "git_blob_sha": "c47859c61faeaf830cf8be0fb37883b76fa18640",
+      "bytes": 5626,
+      "active_lines": 66
+    },
+    {
+      "path": "rule/Shadowrocket/AdvertisingTest/AdvertisingTest.list",
+      "sha256": "dd85c39fa19be8d4ef2985987b01c92f0afbcb49ac58a74144abae6ac09d282d",
+      "git_blob_sha": "34bae1364f338347b4f79937bc6c5d705c637767",
+      "bytes": 27690,
+      "active_lines": 805
+    },
+    {
+      "path": "rule/Shadowrocket/AdvertisingTest/AdvertisingTest_Domain.list",
+      "sha256": "c2bd41671243fca4e3e7c3a800a9b3f1ee39c911ff592c9d41daaf4ac7cb6e46",
+      "git_blob_sha": "6e99fc34065db05af7561d79b01ec084e2dc90c5",
+      "bytes": 6225457,
+      "active_lines": 310845
+    },
+    {
+      "path": "rule/Shadowrocket/AdvertisingTest/AdvertisingTest_Resolve.list",
+      "sha256": "8fba47a898aff6ab89f4ad02829bf2ba56c03557f1d24b77209a299fbb4a05d4",
+      "git_blob_sha": "8db384708f513560277c2f7e2d8b6039a6e06fd3",
+      "bytes": 22069,
+      "active_lines": 805
+    },
+    {
+      "path": "rule/Shadowrocket/AdvertisingTest/README.md",
+      "sha256": "df29b707427b6c46b8f47663c11b4c14715d8ce39ab363dd4c89030821245043",
+      "git_blob_sha": "4aaa6eeb8c98f8e2cfbdfb1379e6defc596a8f58",
+      "bytes": 7559,
+      "active_lines": 84
+    },
+    {
+      "path": "rule/Shadowrocket/Blizzard/Blizzard.list",
+      "sha256": "148f4ff869a482b49c81fbd606075712a6f72bd70ab2ee521ebeb6dcc44aaa89",
+      "git_blob_sha": "2c9fd8e940d461e40b2f6443a9d19ea58b6cc383",
+      "bytes": 2304,
+      "active_lines": 62
+    },
+    {
+      "path": "rule/Shadowrocket/Blizzard/Blizzard_Resolve.list",
+      "sha256": "3c0eb699037c24d6521ab4471d9ec07c11d799892317fe1ef2b079df06e03089",
+      "git_blob_sha": "d29a59dc0e9e634059956fd5d160f96b40968de7",
+      "bytes": 2051,
+      "active_lines": 62
+    },
+    {
+      "path": "rule/Shadowrocket/ChinaIPs/ChinaIPs.list",
+      "sha256": "a4845baf92a19fb8b8501ba6c262aed7ffd492b6b536dc18b496ea7e3ec00c6e",
+      "git_blob_sha": "309e17b41f33a17a9eaf88be0314a507c6335de4",
+      "bytes": 685947,
+      "active_lines": 19228
+    },
+    {
+      "path": "rule/Shadowrocket/ChinaIPs/ChinaIPsTest/ChinaIPsTest.list",
+      "sha256": "e04fab9f8529f3d34c63c99de4343a76951ef98d8355623955d54d193a18b554",
+      "git_blob_sha": "2e9303ae6fb13dcedac3b8265ebc951fabc1cc5f",
+      "bytes": 821031,
+      "active_lines": 23029
+    },
+    {
+      "path": "rule/Shadowrocket/ChinaIPs/ChinaIPsTest/ChinaIPsTest_Resolve.list",
+      "sha256": "07b664d3146efb8beeb38abaaadf79428bc58c5eeccc4b38b3b72f03a40fa423",
+      "git_blob_sha": "2255613f0faebaeee93c02bba2a9a1206d224d91",
+      "bytes": 567712,
+      "active_lines": 23029
+    },
+    {
+      "path": "rule/Shadowrocket/ChinaIPs/ChinaIPsTest/README.md",
+      "sha256": "c85c5dab7feaefb6e33fa9ed450e2e46f9a13b88ce70d6f6f695a285506afddc",
+      "git_blob_sha": "75efc904fa0d5c0051dc2eb9fff626b78b490e38",
+      "bytes": 4713,
+      "active_lines": 59
+    },
+    {
+      "path": "rule/Shadowrocket/ChinaIPs/ChinaIPs_Resolve.list",
+      "sha256": "02c545c45fefaf89ee953d3b00f3cbe251878709d21a92f2e65704ec772c378f",
+      "git_blob_sha": "9de4c2f1d901f5c47510cee25311537ed0b4fd1b",
+      "bytes": 474439,
+      "active_lines": 19228
+    },
+    {
+      "path": "rule/Shadowrocket/ChinaIPs/README.md",
+      "sha256": "f58ee0c13199c587d0e3829a45d60d729278b91b8b7033c36494d783b20231b6",
+      "git_blob_sha": "7eb08e0a9e47372b847e12d5b667023d5d80ddeb",
+      "bytes": 3449,
+      "active_lines": 42
+    },
+    {
+      "path": "rule/Shadowrocket/ChinaMax/ChinaMax.list",
+      "sha256": "3ad85579823766c26f0038d2568f011951a1d461729d2af092c3e42a27c40d67",
+      "git_blob_sha": "bdd28b3314cabb2b33279bec9a3c54e72543b43a",
+      "bytes": 452552,
+      "active_lines": 12685
+    },
+    {
+      "path": "rule/Shadowrocket/ChinaMax/ChinaMax_Domain.list",
+      "sha256": "9288c9740c3bc187680c00c6cae1db8779a663c69a5ddaeab714efb426a40533",
+      "git_blob_sha": "cac1489fb466a5f13c246604bd04c230af091ad2",
+      "bytes": 1530530,
+      "active_lines": 111842
+    },
+    {
+      "path": "rule/Shadowrocket/ChinaMax/ChinaMax_Resolve.list",
+      "sha256": "88d98f905b83f006ab5b4e8caffb882287b3e0b655a65327474f93dee23db7fa",
+      "git_blob_sha": "94731d400d56e12c6c9a9bf437c0a56d79d5ef19",
+      "bytes": 314436,
+      "active_lines": 12685
+    },
+    {
+      "path": "rule/Shadowrocket/ChinaMax/README.md",
+      "sha256": "dc7af2aaadc2a8d5a2b9f5e212dca0515681d36b34d608d3cfeae6470d21f670",
+      "git_blob_sha": "da4bff3058b411e50484aae5e46d84003ea91321",
+      "bytes": 34111,
+      "active_lines": 402
+    },
+    {
+      "path": "rule/Shadowrocket/ChinaMaxNoIP/ChinaMaxNoIP.list",
+      "sha256": "815592015049cbdb0c5507e16ad9c0634bc731c00fd0c6aa69fbdbcb5f0a2fea",
+      "git_blob_sha": "9b841b586188a151b8b05cb2e963b2335f522b63",
+      "bytes": 3305,
+      "active_lines": 125
+    },
+    {
+      "path": "rule/Shadowrocket/ChinaMaxNoMedia/ChinaMaxNoMedia.list",
+      "sha256": "e504d90a4160a444e57855e21ef7aff46dd62ae264a377dbfec1d7875762af5f",
+      "git_blob_sha": "226ae3363eb28542a0ed357b5a749311b52afc87",
+      "bytes": 452433,
+      "active_lines": 12679
+    },
+    {
+      "path": "rule/Shadowrocket/ChinaMaxNoMedia/ChinaMaxNoMedia_Domain.list",
+      "sha256": "5c46f8c8fa8bfa5eb18d0a2f25e425bc84a6415e90a5ddd7ee7e449428f8cdb7",
+      "git_blob_sha": "e87b4ea34f6ae0beba76df2a957ab170c1fbac79",
+      "bytes": 1523766,
+      "active_lines": 111410
+    },
+    {
+      "path": "rule/Shadowrocket/ChinaMaxNoMedia/ChinaMaxNoMedia_Resolve.list",
+      "sha256": "afec0e21d79aeee242d1a24137b3b32a613bde3d6fbf576bc18c5bce14093623",
+      "git_blob_sha": "db7c7e6b4471104192d97ae4fc133e849586b16a",
+      "bytes": 314317,
+      "active_lines": 12679
+    },
+    {
+      "path": "rule/Shadowrocket/ChinaMaxNoMedia/README.md",
+      "sha256": "b3be26933097020b89f6df8cbd2a69aa04b1e088c4e13c2f62c65b6a977896f4",
+      "git_blob_sha": "43d75ba43ee2a0330d38e7a993c11c492a814eca",
+      "bytes": 33691,
+      "active_lines": 395
+    },
+    {
+      "path": "rule/Shadowrocket/Game/Game.list",
+      "sha256": "81e8ceb4f590806c2f60537059bd20a26165d736acf975776e3377a1153ea15f",
+      "git_blob_sha": "958d41dfc504403e6806f09efdd575973ca845b9",
+      "bytes": 19223,
+      "active_lines": 597
+    },
+    {
+      "path": "rule/Shadowrocket/Game/Game_Resolve.list",
+      "sha256": "1e1f4ff2c32f944d09f349807637e67b0e74f4aac8f6bc60268ce73f6f2259a4",
+      "git_blob_sha": "6723d2f7814e8c58e86678f62024b7261fbfc0b7",
+      "bytes": 18717,
+      "active_lines": 597
+    },
+    {
+      "path": "rule/Shadowrocket/Global/Global.list",
+      "sha256": "cbd34b4cb3d0eaeef8ced62b8772e63417ae693196a2c96513e353550bfaa015",
+      "git_blob_sha": "4ebc4c9baef4129e37f8b06a807c69fe47b3fc97",
+      "bytes": 6200,
+      "active_lines": 201
+    },
+    {
+      "path": "rule/Shadowrocket/Global/Global_Domain.list",
+      "sha256": "715a36bae5510dca2023eab59c3ead4357d8d77ad45e43e62162442de9e3bb71",
+      "git_blob_sha": "02ee208084faa4ba367ee3381ab4df033eec873f",
+      "bytes": 551715,
+      "active_lines": 35027
+    },
+    {
+      "path": "rule/Shadowrocket/Global/Global_Resolve.list",
+      "sha256": "0276b96e2762908d195f8959902351fdb2d002a067fad7ff7e30581c3dbbf990",
+      "git_blob_sha": "c5bfe43af886bf5f53ed0513049e7f2c8a346a9d",
+      "bytes": 4891,
+      "active_lines": 201
+    },
+    {
+      "path": "rule/Shadowrocket/Global/README.md",
+      "sha256": "2fc797728c717ba8086c08146b7c2a77964537aecfbf7868ead16a3ec38d00b7",
+      "git_blob_sha": "6f2a49d87cb085db41c7d8a9edae0621d9d73673",
+      "bytes": 4630,
+      "active_lines": 66
+    },
+    {
+      "path": "rule/Shadowrocket/GlobalMedia/GlobalMedia.list",
+      "sha256": "a9f854728932690c7b77c0c15da6b7a81de97cfe47f388cf1d901ccf9a6623e9",
+      "git_blob_sha": "d6927473cfd324450c25951cb69688f9a1663ad5",
+      "bytes": 35604,
+      "active_lines": 1021
+    },
+    {
+      "path": "rule/Shadowrocket/GlobalMedia/GlobalMedia_Resolve.list",
+      "sha256": "ab803c645aa7891b6aa9d2f6a410da877a53dec4a241dca47a19e1be1841d7a2",
+      "git_blob_sha": "4d69eea5bf6ecdcacc0a19395027f5a58c57cf6c",
+      "bytes": 25440,
+      "active_lines": 1021
+    },
+    {
+      "path": "rule/Surge/Advertising/Advertising.list",
+      "sha256": "675f8cad16212d0f82820a0c9ca781bea43efb567fc845aa11c833af7aad9993",
+      "git_blob_sha": "c44fd3370e5fe3152e304bbf3caddebdeafe3b78",
+      "bytes": 26927,
+      "active_lines": 782
+    },
+    {
+      "path": "rule/Surge/Advertising/Advertising_All.list",
+      "sha256": "7773f0334347c6aff51198680cf029cd6b50e1f5c5cfafd6670c021ea16bae98",
+      "git_blob_sha": "39009532488714a47bf1fb2bdce77b79f4c2f2c8",
+      "bytes": 9431556,
+      "active_lines": 287036
+    },
+    {
+      "path": "rule/Surge/Advertising/Advertising_All_No_Resolve.list",
+      "sha256": "c92d227cf650cfeed2c2d6248ca760382ab320f0f061f42dde6328d062203bed",
+      "git_blob_sha": "aac322cdcc0bf5bfdd1214a534f716d8c0b7f2e7",
+      "bytes": 9436935,
+      "active_lines": 287036
+    },
+    {
+      "path": "rule/Surge/Advertising/Advertising_Domain.list",
+      "sha256": "213b3243c169c8c46813b2f435bff7a32f933a20b93410fadcdc044db58f70cf",
+      "git_blob_sha": "821a47900b5a3102be5630a2e5388bbfc26c4cf5",
+      "bytes": 5787685,
+      "active_lines": 286254
+    },
+    {
+      "path": "rule/Surge/Advertising/Advertising_Resolve.list",
+      "sha256": "61136c8591b17dcce6008c68550b5dc545084090bb787018fcaab2fe5fd1367e",
+      "git_blob_sha": "a47c6a40c773d26dbe506c78a6fbb24bad420155",
+      "bytes": 21548,
+      "active_lines": 782
+    },
+    {
+      "path": "rule/Surge/Advertising/README.md",
+      "sha256": "cbc7b030412332b65338fdfa480886c65f15c452dc9b3ad660724b4ec15b4369",
+      "git_blob_sha": "f5b31438003f27406c5ec374227cd9747fbfb35a",
+      "bytes": 5905,
+      "active_lines": 73
+    },
+    {
+      "path": "rule/Surge/AdvertisingTest/AdvertisingTest.list",
+      "sha256": "d90d02489a74c3e39359c5a021fbb6708e09584afc7d651ea66d47dd5f40ba58",
+      "git_blob_sha": "3b4ec16d0e4ce2827a24f854520be38c12fd57e1",
+      "bytes": 27764,
+      "active_lines": 806
+    },
+    {
+      "path": "rule/Surge/AdvertisingTest/AdvertisingTest_All.list",
+      "sha256": "51babc7d766361e711488fc47e19c492375c9c2201e505bc4afa254e6fa484dd",
+      "git_blob_sha": "e3a6411fb3032e7043952c782d5894a407efcd88",
+      "bytes": 10209293,
+      "active_lines": 311651
+    },
+    {
+      "path": "rule/Surge/AdvertisingTest/AdvertisingTest_All_No_Resolve.list",
+      "sha256": "abeff5f68547f74521c9627067c46de3e17456777cd82fa5269afbbe6279beca",
+      "git_blob_sha": "17ba7c0097591c7c01abc41f622819300fb4a6b3",
+      "bytes": 10214914,
+      "active_lines": 311651
+    },
+    {
+      "path": "rule/Surge/AdvertisingTest/AdvertisingTest_Domain.list",
+      "sha256": "2278c873ff5a2c0d4f58d7d61cb14909801294e3c8df342f399d870de22f1c1a",
+      "git_blob_sha": "154003b95a161cd12663e2190544ba3303ad10f4",
+      "bytes": 6225480,
+      "active_lines": 310845
+    },
+    {
+      "path": "rule/Surge/AdvertisingTest/AdvertisingTest_Resolve.list",
+      "sha256": "84feb480119f8425cec0ca956611689fbfb5c5bd6fd30e4ed0832cd62b2eff91",
+      "git_blob_sha": "27367d50c82180cfd30104dbd3227c926e36c2c8",
+      "bytes": 22143,
+      "active_lines": 806
+    },
+    {
+      "path": "rule/Surge/AdvertisingTest/README.md",
+      "sha256": "262ad2b3d2db7dc956e3a5360ea201cc4fccd3657690c0c539e7dd805b0ee970",
+      "git_blob_sha": "8b6ebf33a157fb8d165fea9831566de240e6fb2b",
+      "bytes": 7854,
+      "active_lines": 91
+    },
+    {
+      "path": "rule/Surge/Apple/Apple_All.list",
+      "sha256": "a08c8de04519ff3668b6022fdb32846bcba9c1982bd7abdb37e6e2a145ca28b1",
+      "git_blob_sha": "ea5fb5594a0c1b21df2b09aee5d91804aadb57e4",
+      "bytes": 51259,
+      "active_lines": 1616
+    },
+    {
+      "path": "rule/Surge/Apple/Apple_All_No_Resolve.list",
+      "sha256": "4613ea875cf79068e895fd58b6eb973a0348928e403af75e2bfffa19c7145650",
+      "git_blob_sha": "5f1701adb0848bf83cdf3727cd7e0467a4ba17dd",
+      "bytes": 51402,
+      "active_lines": 1616
+    },
+    {
+      "path": "rule/Surge/Blizzard/Blizzard.list",
+      "sha256": "148f4ff869a482b49c81fbd606075712a6f72bd70ab2ee521ebeb6dcc44aaa89",
+      "git_blob_sha": "2c9fd8e940d461e40b2f6443a9d19ea58b6cc383",
+      "bytes": 2304,
+      "active_lines": 62
+    },
+    {
+      "path": "rule/Surge/Blizzard/Blizzard_Resolve.list",
+      "sha256": "3c0eb699037c24d6521ab4471d9ec07c11d799892317fe1ef2b079df06e03089",
+      "git_blob_sha": "d29a59dc0e9e634059956fd5d160f96b40968de7",
+      "bytes": 2051,
+      "active_lines": 62
+    },
+    {
+      "path": "rule/Surge/ChinaIPs/ChinaIPs.list",
+      "sha256": "b78ac5d81c5b748294050fa3879b7bebd521538ec6f9dbf9e08a309046a3c3e7",
+      "git_blob_sha": "3922961703a7afe51133200756bf56ccc457bb85",
+      "bytes": 691595,
+      "active_lines": 19228
+    },
+    {
+      "path": "rule/Surge/ChinaIPs/ChinaIPsTest/ChinaIPsTest.list",
+      "sha256": "1f268dd948d1c814715e4699399b92d101262fb0c666e51c5b04ebbfd814adb8",
+      "git_blob_sha": "0937a7c969e8af80b949416f24e240fd306cea5c",
+      "bytes": 827903,
+      "active_lines": 23029
+    },
+    {
+      "path": "rule/Surge/ChinaIPs/ChinaIPsTest/ChinaIPsTest_No_IPv6.list",
+      "sha256": "da8f352fbfbfe0c8186298119720d2cfe10baeebdf589474bfe6dae79cc47b54",
+      "git_blob_sha": "85ff60822c5971e0f57bd277672cd9deb04ab7d2",
+      "bytes": 562864,
+      "active_lines": 16174
+    },
+    {
+      "path": "rule/Surge/ChinaIPs/ChinaIPsTest/ChinaIPsTest_No_IPv6_Resolve.list",
+      "sha256": "f3dfa6b5398b572720c1f03443319a87d0aa11dbdee225bd0722bd267f0ec078",
+      "git_blob_sha": "01e547a94df2d489a18aa90164e2db3062dbdd64",
+      "bytes": 384950,
+      "active_lines": 16174
+    },
+    {
+      "path": "rule/Surge/ChinaIPs/ChinaIPsTest/ChinaIPsTest_Resolve.list",
+      "sha256": "8c12dfaa2d108a10dfb2017de379f25475883a060052a4322ba5915e436b0253",
+      "git_blob_sha": "475ec8c090db088bf917f21476950257f7332d34",
+      "bytes": 574584,
+      "active_lines": 23029
+    },
+    {
+      "path": "rule/Surge/ChinaIPs/ChinaIPsTest/README.md",
+      "sha256": "1996ae4b1fd22d52c8d18fa2b9458e28456a341a00dbcddf289098de83af57cb",
+      "git_blob_sha": "615d8c73804d0ea8cc9e0cbcd125ca22b00f984d",
+      "bytes": 5264,
+      "active_lines": 66
+    },
+    {
+      "path": "rule/Surge/ChinaIPs/ChinaIPs_No_IPv6.list",
+      "sha256": "c21dbe299234c0b990359ed0d6b48e758c28a361d4d2417ec9828c2980942109",
+      "git_blob_sha": "c2db9e0b7930db7bb24cf5e4532b2c908864e7f4",
+      "bytes": 473335,
+      "active_lines": 13597
+    },
+    {
+      "path": "rule/Surge/ChinaIPs/ChinaIPs_No_IPv6_Resolve.list",
+      "sha256": "8c880cd7aa3f89d15fa3f0e753ced3d4bb2091c64b1688c880d7de48cdbfe323",
+      "git_blob_sha": "b399fd3e21d4893eef0e2488dc736be91d84d6ce",
+      "bytes": 323768,
+      "active_lines": 13597
+    },
+    {
+      "path": "rule/Surge/ChinaIPs/ChinaIPs_Resolve.list",
+      "sha256": "f738bc0436e01298fc716de2f52f89052338125bb2f0956dbd4f3513cd4b3797",
+      "git_blob_sha": "7aa136cdbee058f041ae47abbec47be84b51370a",
+      "bytes": 480087,
+      "active_lines": 19228
+    },
+    {
+      "path": "rule/Surge/ChinaIPs/README.md",
+      "sha256": "033b71145d3b21695c2cc25a9521503f470fbc41baab90a63b33306a98e468e0",
+      "git_blob_sha": "158e8a71cbd26751bb75007cb751cb9e335a0cb4",
+      "bytes": 3968,
+      "active_lines": 49
+    },
+    {
+      "path": "rule/Surge/ChinaMax/ChinaMax.list",
+      "sha256": "7c476117deb5f6de0dc8abc05d03682695fb95984386fa1a37cea1ad59d28038",
+      "git_blob_sha": "3b48e1d666e9ab48422499cd28ad18e5447376bb",
+      "bytes": 457284,
+      "active_lines": 12697
+    },
+    {
+      "path": "rule/Surge/ChinaMax/ChinaMax_All.list",
+      "sha256": "d38bc709a9f6733389dafec333cacabe9fe5548c714f313f59d03a5d08f08b60",
+      "git_blob_sha": "ee92eb6ff9e16efb4a55504235157c5f24d81cf2",
+      "bytes": 3301788,
+      "active_lines": 124539
+    },
+    {
+      "path": "rule/Surge/ChinaMax/ChinaMax_All_No_Resolve.list",
+      "sha256": "b01ddda382d2f71748bea0c22a06b590ce5358fb18849db197fb4c65cb37c2f9",
+      "git_blob_sha": "57a72d5993d787cdfed917857d8e9bcae25d9d82",
+      "bytes": 3439904,
+      "active_lines": 124539
+    },
+    {
+      "path": "rule/Surge/ChinaMax/ChinaMax_Domain.list",
+      "sha256": "e7dfdee2eae4abf9413fe0cc4a23df987db8c8673d355a18598735d54cb3f2d2",
+      "git_blob_sha": "2110e197ece84b27d7dc18440e5ba6738b6cd080",
+      "bytes": 1530565,
+      "active_lines": 111842
+    },
+    {
+      "path": "rule/Surge/ChinaMax/ChinaMax_No_IPv6.list",
+      "sha256": "b2f2718465d53b2b40bc7d6f4914cf108cd9011366d4d927ecf9c56379d8a9ec",
+      "git_blob_sha": "d17def349e96661ba9698db11c1d6cd45a36fd5d",
+      "bytes": 290531,
+      "active_lines": 8388
+    },
+    {
+      "path": "rule/Surge/ChinaMax/ChinaMax_No_IPv6_Resolve.list",
+      "sha256": "c34adf48a1fdb1b186f826cd23f03320c14dc335606eb3c72a84a0502792156e",
+      "git_blob_sha": "064873d35fac6b58c83a1b62b5f540372e8d80a7",
+      "bytes": 199814,
+      "active_lines": 8388
+    },
+    {
+      "path": "rule/Surge/ChinaMax/ChinaMax_Resolve.list",
+      "sha256": "e182ffa16661f7271f9e0ba40acb71be4882ce166e7b6e5857788f2f38aa3259",
+      "git_blob_sha": "080758bf7dc3ec47716ba139b2f3a7b27d047bbd",
+      "bytes": 319168,
+      "active_lines": 12697
+    },
+    {
+      "path": "rule/Surge/ChinaMax/README.md",
+      "sha256": "f10d1cda531c18cacbea39b3002d20dd46d936745cafc9dd46d12d0c4949a4b7",
+      "git_blob_sha": "58ecae33e619bbf4f328f92ab6463ddf6d34a9fc",
+      "bytes": 34982,
+      "active_lines": 415
+    },
+    {
+      "path": "rule/Surge/ChinaMaxNoIP/ChinaMaxNoIP.list",
+      "sha256": "00e064f4f16b77ee561058a6225a3b2de4774c5b12967b7711d997b271af11c3",
+      "git_blob_sha": "4f7646e71d0b3d97f4eca2ea5710d22db1b20b16",
+      "bytes": 3712,
+      "active_lines": 137
+    },
+    {
+      "path": "rule/Surge/ChinaMaxNoIP/ChinaMaxNoIP_All.list",
+      "sha256": "7335c3467bae9d1cbe5455ddb513d0e06e034c1ea699f45f04e03ce988dc4934",
+      "git_blob_sha": "396fa5e09b6ea12cbe26000777601c08a6ee429f",
+      "bytes": 2976808,
+      "active_lines": 111655
+    },
+    {
+      "path": "rule/Surge/ChinaMaxNoIP/ChinaMaxNoIP_All_No_Resolve.list",
+      "sha256": "7335c3467bae9d1cbe5455ddb513d0e06e034c1ea699f45f04e03ce988dc4934",
+      "git_blob_sha": "396fa5e09b6ea12cbe26000777601c08a6ee429f",
+      "bytes": 2976808,
+      "active_lines": 111655
+    },
+    {
+      "path": "rule/Surge/ChinaMaxNoMedia/ChinaMaxNoMedia.list",
+      "sha256": "4ba61390ca1469a895db236a1f7d6c56eb71e948fd30d42dc1dbbf13caa0800c",
+      "git_blob_sha": "5072a1915707f58a30a5dcc87b0b7ed947ae92a0",
+      "bytes": 457165,
+      "active_lines": 12691
+    },
+    {
+      "path": "rule/Surge/ChinaMaxNoMedia/ChinaMaxNoMedia_All.list",
+      "sha256": "e1ee497ecdcc33acd37dd7c6098cba011c81d60752db5c0e68b8cb3d9378fa1a",
+      "git_blob_sha": "11b2799d780c0a319478c849cf851de864ab3a54",
+      "bytes": 3289288,
+      "active_lines": 124101
+    },
+    {
+      "path": "rule/Surge/ChinaMaxNoMedia/ChinaMaxNoMedia_All_No_Resolve.list",
+      "sha256": "7f56c5a3eb55b449cb33bb057a4c26bd63cb67d60352e74933a8bbdd1fe263fe",
+      "git_blob_sha": "44c8ff4c383647f3963a4b3cd0baf38307233fa7",
+      "bytes": 3427404,
+      "active_lines": 124101
+    },
+    {
+      "path": "rule/Surge/ChinaMaxNoMedia/ChinaMaxNoMedia_Domain.list",
+      "sha256": "640a9607e2c5b058d9ce4579376f84523bc68eb0f68d3a79ae643040cce59261",
+      "git_blob_sha": "f05d26cdbc64d1dc06b3b50fe55ed430e5025264",
+      "bytes": 1523801,
+      "active_lines": 111410
+    },
+    {
+      "path": "rule/Surge/ChinaMaxNoMedia/ChinaMaxNoMedia_Resolve.list",
+      "sha256": "e68776d301600aba7010e6006c5ffb2cda88bbce58d27f6904ef51a3de525e60",
+      "git_blob_sha": "1f65ad8232de300212fd1edeb67876eca64a6942",
+      "bytes": 319049,
+      "active_lines": 12691
+    },
+    {
+      "path": "rule/Surge/ChinaMaxNoMedia/README.md",
+      "sha256": "b118963047d4347ac16896b134bf6c5b94e3a5bf48e0dd3ff044fbcad134389e",
+      "git_blob_sha": "35d1a8e02e5e2fa55ca1e70493c27526e20d5af8",
+      "bytes": 33998,
+      "active_lines": 402
+    },
+    {
+      "path": "rule/Surge/Game/Game.list",
+      "sha256": "81e8ceb4f590806c2f60537059bd20a26165d736acf975776e3377a1153ea15f",
+      "git_blob_sha": "958d41dfc504403e6806f09efdd575973ca845b9",
+      "bytes": 19223,
+      "active_lines": 597
+    },
+    {
+      "path": "rule/Surge/Game/Game_Resolve.list",
+      "sha256": "1e1f4ff2c32f944d09f349807637e67b0e74f4aac8f6bc60268ce73f6f2259a4",
+      "git_blob_sha": "6723d2f7814e8c58e86678f62024b7261fbfc0b7",
+      "bytes": 18717,
+      "active_lines": 597
+    },
+    {
+      "path": "rule/Surge/Global/Global.list",
+      "sha256": "c0a5a14c0e71db2554d186f215687a6ee8c5079edd7bbaa975f3bbbd0ad2443b",
+      "git_blob_sha": "275ca95e1e59d54df4746102aa7e6f8d9c19ed18",
+      "bytes": 6267,
+      "active_lines": 202
+    },
+    {
+      "path": "rule/Surge/Global/Global_All.list",
+      "sha256": "5517b39e645b215b6646fa26e6652a23c9d7df18504e60c109c1207c73d5f3ca",
+      "git_blob_sha": "2684e8dceb726a3de2b943b0a4f748d91a4ad09a",
+      "bytes": 1011032,
+      "active_lines": 35229
+    },
+    {
+      "path": "rule/Surge/Global/Global_All_No_Resolve.list",
+      "sha256": "067c9e27114461f6b2ac14aa95e95e56cb12c3e31ba89ced0fe40a1b7f2a6f91",
+      "git_blob_sha": "08b5dd31b08a6f2e0796100a5f669fab8b780a6c",
+      "bytes": 1012341,
+      "active_lines": 35229
+    },
+    {
+      "path": "rule/Surge/Global/Global_Domain.list",
+      "sha256": "7b0e13f18673c62fe2b6319eede705db59a5c0101a3b3025110bfff7c7b25ef3",
+      "git_blob_sha": "6ed8b4d1554ae0393fc9760d422743077cf476f4",
+      "bytes": 551747,
+      "active_lines": 35027
+    },
+    {
+      "path": "rule/Surge/Global/Global_Resolve.list",
+      "sha256": "1f7237d1d235ede31fb98c695ffc78e9286fc774f7a2c1180aa404af44cded5a",
+      "git_blob_sha": "f06fb99d8ddb67c16f80a8bfec73505ecdc6c6fe",
+      "bytes": 4958,
+      "active_lines": 202
+    },
+    {
+      "path": "rule/Surge/Global/README.md",
+      "sha256": "c6c01f8aa1267d15fbd057e7bcedef1d209e68f36ba9ab6aaa45dd6a2e843e21",
+      "git_blob_sha": "f1f010136a7babb79935d07b14e53df02d75c78f",
+      "bytes": 4898,
+      "active_lines": 73
+    },
+    {
+      "path": "rule/Surge/GlobalMedia/GlobalMedia.list",
+      "sha256": "f25f757f9ffd0df6ff382b79480f9f65791f3917d690bd20717ac770f0507f82",
+      "git_blob_sha": "582abf7c919a515367ab934ca9c586f711c133ec",
+      "bytes": 35722,
+      "active_lines": 1024
+    },
+    {
+      "path": "rule/Surge/GlobalMedia/GlobalMedia_All.list",
+      "sha256": "b82ee02faf94720274cd7023511ace22c9c044f1f899050c8d0ed957351a4a5e",
+      "git_blob_sha": "6835e856e7977ca34612a4852c11abdcca93e4fd",
+      "bytes": 63187,
+      "active_lines": 2335
+    },
+    {
+      "path": "rule/Surge/GlobalMedia/GlobalMedia_All_No_Resolve.list",
+      "sha256": "cdad0ecd75c1d772f6492970a8ef60efcf4e0b6f12627766e78f2169bdbff122",
+      "git_blob_sha": "46e938491b08945d16a30f7e80529e272b46f422",
+      "bytes": 73351,
+      "active_lines": 2335
+    },
+    {
+      "path": "rule/Surge/GlobalMedia/GlobalMedia_Resolve.list",
+      "sha256": "74f753c270802aba80ccfd5c37442608fd3f62115f242276eaacf89ef455510e",
+      "git_blob_sha": "89974fa785fa91ff19cc919fdeb0a23a40d3ded1",
+      "bytes": 25558,
+      "active_lines": 1024
+    }
+  ],
+  "actual_diff_review": {
+    "classification": "Only upstream-generated rule data and README/time/count metadata changed. No source, script, workflow, LICENSE or rewrite configuration changed.",
+    "surge_rule_set_diffs": [
+      {
+        "category": "Advertising",
+        "original_rows": 782,
+        "new_rows": 782,
+        "added": 0,
+        "removed": 0,
+        "added_type_counts": {},
+        "removed_type_counts": {},
+        "added_examples": [],
+        "removed_examples": [],
+        "changed_network_rules": []
+      },
+      {
+        "category": "AdvertisingTest",
+        "original_rows": 806,
+        "new_rows": 806,
+        "added": 0,
+        "removed": 0,
+        "added_type_counts": {},
+        "removed_type_counts": {},
+        "added_examples": [],
+        "removed_examples": [],
+        "changed_network_rules": []
+      },
+      {
+        "category": "Blizzard",
+        "original_rows": 62,
+        "new_rows": 62,
+        "added": 0,
+        "removed": 0,
+        "added_type_counts": {},
+        "removed_type_counts": {},
+        "added_examples": [],
+        "removed_examples": [],
+        "changed_network_rules": []
+      },
+      {
+        "category": "ChinaIPs",
+        "original_rows": 19225,
+        "new_rows": 19228,
+        "added": 3,
+        "removed": 0,
+        "added_type_counts": {
+          "IP-CIDR": 3
+        },
+        "removed_type_counts": {},
+        "added_examples": [
+          "IP-CIDR,103.104.155.0/24,no-resolve",
+          "IP-CIDR,14.167.176.0/20,no-resolve",
+          "IP-CIDR,87.82.58.0/24,no-resolve"
+        ],
+        "removed_examples": [],
+        "changed_network_rules": [
+          "IP-CIDR,103.104.155.0/24,no-resolve",
+          "IP-CIDR,14.167.176.0/20,no-resolve",
+          "IP-CIDR,87.82.58.0/24,no-resolve"
+        ]
+      },
+      {
+        "category": "ChinaMax",
+        "original_rows": 12667,
+        "new_rows": 12697,
+        "added": 33,
+        "removed": 3,
+        "added_type_counts": {
+          "IP-CIDR": 4,
+          "IP-CIDR6": 29
+        },
+        "removed_type_counts": {
+          "IP-CIDR": 2,
+          "IP-CIDR6": 1
+        },
+        "added_examples": [
+          "IP-CIDR,14.167.176.0/20,no-resolve",
+          "IP-CIDR,141.11.50.0/24,no-resolve",
+          "IP-CIDR,154.84.180.0/24,no-resolve",
+          "IP-CIDR,87.82.58.0/24,no-resolve",
+          "IP-CIDR6,2402:7da0::/32,no-resolve",
+          "IP-CIDR6,2406:840:9000::/38,no-resolve",
+          "IP-CIDR6,2406:840:9400::/39,no-resolve"
+        ],
+        "removed_examples": [
+          "IP-CIDR,116.206.126.0/24,no-resolve",
+          "IP-CIDR,203.188.1.0/24,no-resolve",
+          "IP-CIDR6,2406:840:9000::/37,no-resolve"
+        ],
+        "changed_network_rules": [
+          "IP-CIDR,116.206.126.0/24,no-resolve",
+          "IP-CIDR,14.167.176.0/20,no-resolve",
+          "IP-CIDR,141.11.50.0/24,no-resolve",
+          "IP-CIDR,154.84.180.0/24,no-resolve",
+          "IP-CIDR,203.188.1.0/24,no-resolve",
+          "IP-CIDR,87.82.58.0/24,no-resolve",
+          "IP-CIDR6,2402:7da0::/32,no-resolve",
+          "IP-CIDR6,2406:840:9000::/37,no-resolve",
+          "IP-CIDR6,2406:840:9000::/38,no-resolve",
+          "IP-CIDR6,2406:840:9400::/39,no-resolve",
+          "IP-CIDR6,2406:840:9600::/41,no-resolve",
+          "IP-CIDR6,2406:840:9680:4000::/51,no-resolve",
+          "IP-CIDR6,2406:840:9680:6000::/54,no-resolve",
+          "IP-CIDR6,2406:840:9680:6400::/55,no-resolve",
+          "IP-CIDR6,2406:840:9680:6600::/58,no-resolve",
+          "IP-CIDR6,2406:840:9680:6640::/59,no-resolve",
+          "IP-CIDR6,2406:840:9680:6660::/62,no-resolve",
+          "IP-CIDR6,2406:840:9680:6664::/63,no-resolve",
+          "IP-CIDR6,2406:840:9680:6667::/64,no-resolve",
+          "IP-CIDR6,2406:840:9680:6668::/61,no-resolve",
+          "IP-CIDR6,2406:840:9680:6670::/60,no-resolve",
+          "IP-CIDR6,2406:840:9680:6680::/57,no-resolve",
+          "IP-CIDR6,2406:840:9680:6700::/56,no-resolve",
+          "IP-CIDR6,2406:840:9680:6800::/53,no-resolve",
+          "IP-CIDR6,2406:840:9680:7000::/52,no-resolve",
+          "IP-CIDR6,2406:840:9680:8000::/49,no-resolve",
+          "IP-CIDR6,2406:840:9680::/50,no-resolve",
+          "IP-CIDR6,2406:840:9681::/48,no-resolve",
+          "IP-CIDR6,2406:840:9682::/47,no-resolve",
+          "IP-CIDR6,2406:840:9684::/46,no-resolve",
+          "IP-CIDR6,2406:840:9688::/45,no-resolve",
+          "IP-CIDR6,2406:840:9690::/44,no-resolve",
+          "IP-CIDR6,2406:840:96a0::/43,no-resolve",
+          "IP-CIDR6,2406:840:96c0::/42,no-resolve",
+          "IP-CIDR6,2406:840:9700::/40,no-resolve",
+          "IP-CIDR6,240b:4006:110c::/46,no-resolve"
+        ]
+      },
+      {
+        "category": "ChinaMaxNoIP",
+        "original_rows": 137,
+        "new_rows": 137,
+        "added": 0,
+        "removed": 0,
+        "added_type_counts": {},
+        "removed_type_counts": {},
+        "added_examples": [],
+        "removed_examples": [],
+        "changed_network_rules": []
+      },
+      {
+        "category": "ChinaMaxNoMedia",
+        "original_rows": 12661,
+        "new_rows": 12691,
+        "added": 33,
+        "removed": 3,
+        "added_type_counts": {
+          "IP-CIDR": 4,
+          "IP-CIDR6": 29
+        },
+        "removed_type_counts": {
+          "IP-CIDR": 2,
+          "IP-CIDR6": 1
+        },
+        "added_examples": [
+          "IP-CIDR,14.167.176.0/20,no-resolve",
+          "IP-CIDR,141.11.50.0/24,no-resolve",
+          "IP-CIDR,154.84.180.0/24,no-resolve",
+          "IP-CIDR,87.82.58.0/24,no-resolve",
+          "IP-CIDR6,2402:7da0::/32,no-resolve",
+          "IP-CIDR6,2406:840:9000::/38,no-resolve",
+          "IP-CIDR6,2406:840:9400::/39,no-resolve"
+        ],
+        "removed_examples": [
+          "IP-CIDR,116.206.126.0/24,no-resolve",
+          "IP-CIDR,203.188.1.0/24,no-resolve",
+          "IP-CIDR6,2406:840:9000::/37,no-resolve"
+        ],
+        "changed_network_rules": [
+          "IP-CIDR,116.206.126.0/24,no-resolve",
+          "IP-CIDR,14.167.176.0/20,no-resolve",
+          "IP-CIDR,141.11.50.0/24,no-resolve",
+          "IP-CIDR,154.84.180.0/24,no-resolve",
+          "IP-CIDR,203.188.1.0/24,no-resolve",
+          "IP-CIDR,87.82.58.0/24,no-resolve",
+          "IP-CIDR6,2402:7da0::/32,no-resolve",
+          "IP-CIDR6,2406:840:9000::/37,no-resolve",
+          "IP-CIDR6,2406:840:9000::/38,no-resolve",
+          "IP-CIDR6,2406:840:9400::/39,no-resolve",
+          "IP-CIDR6,2406:840:9600::/41,no-resolve",
+          "IP-CIDR6,2406:840:9680:4000::/51,no-resolve",
+          "IP-CIDR6,2406:840:9680:6000::/54,no-resolve",
+          "IP-CIDR6,2406:840:9680:6400::/55,no-resolve",
+          "IP-CIDR6,2406:840:9680:6600::/58,no-resolve",
+          "IP-CIDR6,2406:840:9680:6640::/59,no-resolve",
+          "IP-CIDR6,2406:840:9680:6660::/62,no-resolve",
+          "IP-CIDR6,2406:840:9680:6664::/63,no-resolve",
+          "IP-CIDR6,2406:840:9680:6667::/64,no-resolve",
+          "IP-CIDR6,2406:840:9680:6668::/61,no-resolve",
+          "IP-CIDR6,2406:840:9680:6670::/60,no-resolve",
+          "IP-CIDR6,2406:840:9680:6680::/57,no-resolve",
+          "IP-CIDR6,2406:840:9680:6700::/56,no-resolve",
+          "IP-CIDR6,2406:840:9680:6800::/53,no-resolve",
+          "IP-CIDR6,2406:840:9680:7000::/52,no-resolve",
+          "IP-CIDR6,2406:840:9680:8000::/49,no-resolve",
+          "IP-CIDR6,2406:840:9680::/50,no-resolve",
+          "IP-CIDR6,2406:840:9681::/48,no-resolve",
+          "IP-CIDR6,2406:840:9682::/47,no-resolve",
+          "IP-CIDR6,2406:840:9684::/46,no-resolve",
+          "IP-CIDR6,2406:840:9688::/45,no-resolve",
+          "IP-CIDR6,2406:840:9690::/44,no-resolve",
+          "IP-CIDR6,2406:840:96a0::/43,no-resolve",
+          "IP-CIDR6,2406:840:96c0::/42,no-resolve",
+          "IP-CIDR6,2406:840:9700::/40,no-resolve",
+          "IP-CIDR6,240b:4006:110c::/46,no-resolve"
+        ]
+      },
+      {
+        "category": "Game",
+        "original_rows": 597,
+        "new_rows": 597,
+        "added": 0,
+        "removed": 0,
+        "added_type_counts": {},
+        "removed_type_counts": {},
+        "added_examples": [],
+        "removed_examples": [],
+        "changed_network_rules": []
+      },
+      {
+        "category": "Global",
+        "original_rows": 202,
+        "new_rows": 202,
+        "added": 0,
+        "removed": 0,
+        "added_type_counts": {},
+        "removed_type_counts": {},
+        "added_examples": [],
+        "removed_examples": [],
+        "changed_network_rules": []
+      },
+      {
+        "category": "GlobalMedia",
+        "original_rows": 1024,
+        "new_rows": 1024,
+        "added": 0,
+        "removed": 0,
+        "added_type_counts": {},
+        "removed_type_counts": {},
+        "added_examples": [],
+        "removed_examples": [],
+        "changed_network_rules": []
+      }
+    ],
+    "surge_domain_set_diffs": [
+      {
+        "path": "rule/Surge/Advertising/Advertising_Domain.list",
+        "old_active_domains": 283604,
+        "new_active_domains": 286254,
+        "added": 5200,
+        "removed": 2550,
+        "added_examples": [
+          ".0036abb78a.0c3ff350ec.com",
+          ".02b38ee0a0.fa79b54337.com",
+          ".0a4717b2d2.731cf893fe.com",
+          ".0qry58i9es.com",
+          ".1.elv49pbe2hxqpxuu.cyou",
+          ".16ca862ee4.a3f1bd6bc8.com",
+          ".1ecjbovmygj6ph8.cfd",
+          ".1faa592a07.edff0c48cc.com",
+          ".1gcke6g87481v6mk2uggxj6.rest",
+          ".1i1.badbunnytheelf.online",
+          ".1jlbewhnp5.com",
+          ".1no.yooeiiqrbwm86x61.cyou"
+        ],
+        "removed_examples": [
+          ".0edd2cf0d3.4514559af9.com",
+          ".11ux.95ziegv587wohx9rzj.cfd",
+          ".1hl.hxjwiwl6j6hc8yb.cfd",
+          ".1j.vyuepbkbrw951t9v.cfd",
+          ".1xzzg8.l47w66yln94t7xgl.cfd",
+          ".2555gi8nq7.jethvihccnc3um4khepei.cfd",
+          ".28rq1fq5j3mtwmx.3igmv9l2ivynv6rqx.cfd",
+          ".297fdbc2f7.1426ab7568.com",
+          ".2nmj3.g9wfgbrkyekexrp4gg8wm2.cfd",
+          ".33773a42d8.944ef08b40.com",
+          ".388hero.bio",
+          ".3d781321bc.5ec1d56c09.com"
+        ],
+        "protected_domain_references": [
+          ".ads-dev.pinterest.com",
+          ".ads.pinterest.com",
+          ".ct.pinterest.com",
+          ".log.pinterest.com",
+          ".trk.pinterest.com",
+          ".trk2.pinterest.com"
+        ]
+      },
+      {
+        "path": "rule/Surge/AdvertisingTest/AdvertisingTest_Domain.list",
+        "old_active_domains": 312585,
+        "new_active_domains": 310845,
+        "added": 597,
+        "removed": 2337,
+        "added_examples": [
+          ".0c3ff350ec.com",
+          ".0qry58i9es.com",
+          ".1736js66.com",
+          ".1ecjbovmygj6ph8.cfd",
+          ".1gcke6g87481v6mk2uggxj6.rest",
+          ".1jlbewhnp5.com",
+          ".1umg3i5h83hiqqxem8v15536il8ory4.rest",
+          ".1ve7m9brbf78g2c2pt.rest",
+          ".1xulomppkrwcr8zni6yz.cfd",
+          ".2588a5b922.com",
+          ".25pbowv7h377el8ptlpqxv.rest",
+          ".2w7urj3f2.com"
+        ],
+        "removed_examples": [
+          ".0036abb78a.0c3ff350ec.com",
+          ".0edd2cf0d3.4514559af9.com",
+          ".11ux.95ziegv587wohx9rzj.cfd",
+          ".1hl.hxjwiwl6j6hc8yb.cfd",
+          ".1j.vyuepbkbrw951t9v.cfd",
+          ".1xzzg8.l47w66yln94t7xgl.cfd",
+          ".2555gi8nq7.jethvihccnc3um4khepei.cfd",
+          ".28rq1fq5j3mtwmx.3igmv9l2ivynv6rqx.cfd",
+          ".297fdbc2f7.1426ab7568.com",
+          ".2nmj3.g9wfgbrkyekexrp4gg8wm2.cfd",
+          ".33773a42d8.944ef08b40.com",
+          ".388hero.bio"
+        ],
+        "protected_domain_references": [
+          ".ads-dev.pinterest.com",
+          ".ads.pinterest.com",
+          ".ct.pinterest.com",
+          ".log.pinterest.com",
+          ".trk.pinterest.com",
+          ".trk2.pinterest.com",
+          ".widgets.pinterest.com"
+        ]
+      }
+    ],
+    "allinone_source_and_personal_runtime_bytes_unchanged": true,
+    "allinone_upstream_sha256": "66a8282facc2c339363bdf924b0a65eeaf11b57acf4b5839538044303a2d388d",
+    "allinone_personal_sha256": "43bdfbba457be8a9eb8fab3ff62d018505b296a5e2351c31841fa3ad5038a77a",
+    "personal_override_scope": "Only two existing advertisement/advertising keyword rejects exclude Pinterest/Pinimg authorities; no expansion.",
+    "yaml_payloads_parsed": 52,
+    "changed_cidr_definitions_checked": 75,
+    "copy_policy": "Preserve raw upstream rule bytes and authors/license; no Loon conversion applied to upstream native data."
+  },
+  "verification": {
+    "status": "passed",
+    "regex_engine": "libicui18n.so.74",
+    "changed_generic_rejects": 2,
+    "compiled_original_url_rewrites": 807,
+    "compiled_modified_module_regex_entries": 843,
+    "pinterest_two_rule_scope_cases": 891,
+    "remaining_pinterest_rejects_match_upstream": true,
+    "non_pinterest_equivalence_cases": 1404,
+    "original_false_reject_samples": 2,
+    "retained_other_app_examples": 11,
+    "script_rows_preserved": 24,
+    "all_other_sections_identical": true,
+    "capture_group_counts_preserved": true,
+    "client_effectiveness_verified": false
+  },
+  "script_dependencies": {
+    "status": "passed",
+    "scripts_compiled_without_execution": 2,
+    "resources": [
+      {
+        "source_url": "https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js",
+        "sha256": "41863c4c0ce5eefbdda9a5a96d7605bde70a89a9cc24ee0875f3d751aed2f757",
+        "bytes": 32349,
+        "archive_path": "fork-dependencies/c9641bcbfac07130d01d653ed7095ee62ad0aca7c92fc2768f5330d90e0cdb15",
+        "status": 200,
+        "pinned_source_url": "https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/e2f0646ba9b3bb72b025395b7d2d255c3b241286/zheye.min.js",
+        "gist_revision": "463eb366a6d63af47fae9da8df9d20c836936c48"
+      },
+      {
+        "source_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.js",
+        "sha256": "431801d369b495d34b7a1c1d6cc43abdb1d159dd0d82491ee756c0ae834b625c",
+        "bytes": 12208,
+        "archive_path": "fork-dependencies/d5247c524b30729d155b0370339bd42490b12d2791f1cf9e193672c9ee8b580c",
+        "status": 200,
+        "pinned_source_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/19c84682407580056d0ae2f27e406f70db679de1/script/startup/startup.js"
+      }
+    ]
+  },
+  "external_dependency_baseline_note": "The two runtime script URLs remain untouched. startup.js exactly matches the pinned unchanged script tree. Gist current bytes were archived and syntax-compiled only; this is a first hash observation, not proof of runtime equivalence or a new semantic approval.",
+  "preserved_personal_files": [
+    "AGENTS.md",
+    "rewrite/Surge/AllInOne/AllInOne.sgmodule",
+    "rewrite/Surge/AllInOne/PINTEREST-COMPATIBILITY.md",
+    "rewrite/Surge/AllInOne/UPSTREAM-SYNC.md",
+    "rewrite/Surge/AllInOne/pinterest-review.json",
+    "rewrite/Surge/AllInOne/verify-pinterest.py"
+  ],
+  "merge_conflicts": [],
+  "script_hub_used": false,
+  "automatic_converter_used": false,
+  "client_effectiveness_verified": false,
+  "other_repository": {
+    "name": "WhiteSoulss/wool_scripts",
+    "current_commit": "1badd850ea30569158180710c308548d6bba034d",
+    "fmz_commit_unchanged": true,
+    "source_checks": 107,
+    "dependency_checks": 31,
+    "changed_artifacts": 0,
+    "catalog_changes": 0,
+    "download_errors": 0,
+    "baseline_verification": "passed",
+    "publish_needed": false
+  },
+  "schedule": {
+    "next_beijing": "2026-10-13T08:00:00+08:00",
+    "next_local": "2026-10-12T17:00:00-07:00",
+    "required_local_hour": 17,
+    "changed": false
+  },
+  "whole_tree_verification": {
+    "status": "passed",
+    "tree": "d1915e98ba784bae937c88b08cdd29a278ba6623",
+    "files": 11231,
+    "changed_upstream_files": 246,
+    "all_personal_files_preserved": true
+  }
+}

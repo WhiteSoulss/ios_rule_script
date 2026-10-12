@@ -2,7 +2,7 @@
   "review_date": "2026-10-11",
   "repository": "WhiteSoulss/ios_rule_script",
   "upstream_repository": "blackmatrix7/ios_rule_script",
-  "upstream_commit": "83f37120c155f67c8eef43221dabe15cc3c95fec",
+  "upstream_commit": "19c84682407580056d0ae2f27e406f70db679de1",
   "module_path": "rewrite/Surge/AllInOne/AllInOne.sgmodule",
   "upstream_sha256": "66a8282facc2c339363bdf924b0a65eeaf11b57acf4b5839538044303a2d388d",
   "module_sha256": "43bdfbba457be8a9eb8fab3ff62d018505b296a5e2351c31841fa3ad5038a77a",
@@ -89,5 +89,29 @@
       "advertising"
     ],
     "execution_host": "107.174.244.24"
+  },
+  "latest_upstream_sync": {
+    "date": "2026-10-12",
+    "upstream_commit": "19c84682407580056d0ae2f27e406f70db679de1",
+    "previous_upstream_commit": "83f37120c155f67c8eef43221dabe15cc3c95fec",
+    "scope": "whole upstream repository; 246 changed rule files only; AllInOne and scripts unchanged",
+    "review_record": "rewrite/Surge/AllInOne/upstream-sync-review-20261012.json",
+    "runtime_module_changed": false,
+    "verification": {
+      "status": "passed",
+      "regex_engine": "libicui18n.so.74",
+      "changed_generic_rejects": 2,
+      "compiled_original_url_rewrites": 807,
+      "compiled_modified_module_regex_entries": 843,
+      "pinterest_two_rule_scope_cases": 891,
+      "remaining_pinterest_rejects_match_upstream": true,
+      "non_pinterest_equivalence_cases": 1404,
+      "original_false_reject_samples": 2,
+      "retained_other_app_examples": 11,
+      "script_rows_preserved": 24,
+      "all_other_sections_identical": true,
+      "capture_group_counts_preserved": true,
+      "client_effectiveness_verified": false
+    }
   }
 }
