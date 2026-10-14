@@ -2,7 +2,7 @@
   "review_date": "2026-10-11",
   "repository": "WhiteSoulss/ios_rule_script",
   "upstream_repository": "blackmatrix7/ios_rule_script",
-  "upstream_commit": "19c84682407580056d0ae2f27e406f70db679de1",
+  "upstream_commit": "d8363caa2c1e47fb735615316032bed3f475ee57",
   "module_path": "rewrite/Surge/AllInOne/AllInOne.sgmodule",
   "upstream_sha256": "66a8282facc2c339363bdf924b0a65eeaf11b57acf4b5839538044303a2d388d",
   "module_sha256": "43bdfbba457be8a9eb8fab3ff62d018505b296a5e2351c31841fa3ad5038a77a",
@@ -91,11 +91,12 @@
     "execution_host": "107.174.244.24"
   },
   "latest_upstream_sync": {
-    "date": "2026-10-12",
-    "upstream_commit": "19c84682407580056d0ae2f27e406f70db679de1",
-    "previous_upstream_commit": "83f37120c155f67c8eef43221dabe15cc3c95fec",
-    "scope": "whole upstream repository; 246 changed rule files only; AllInOne and scripts unchanged",
-    "review_record": "rewrite/Surge/AllInOne/upstream-sync-review-20261012.json",
+    "date": "2026-10-13",
+    "timezone": "America/Los_Angeles",
+    "upstream_commit": "d8363caa2c1e47fb735615316032bed3f475ee57",
+    "previous_upstream_commit": "19c84682407580056d0ae2f27e406f70db679de1",
+    "scope": "whole upstream repository; 278 changed rule files only; AllInOne and scripts unchanged",
+    "review_record": "rewrite/Surge/AllInOne/upstream-sync-review-20261014.json",
     "runtime_module_changed": false,
     "verification": {
       "status": "passed",
@@ -111,7 +112,17 @@
       "script_rows_preserved": 24,
       "all_other_sections_identical": true,
       "capture_group_counts_preserved": true,
-      "client_effectiveness_verified": false
+      "client_effectiveness_verified": false,
+      "scripts_compiled_without_execution": 2,
+      "AllInOne_source_and_runtime_byte_identical": true,
+      "all_non_rule_upstream_files_unchanged": true,
+      "script_dependencies_unchanged": true,
+      "client_runtime_tested": false
+    },
+    "native_rule_changes_validated": {
+      "changed_domain_and_keyword_rows": 4114,
+      "changed_cidr_rows": 160,
+      "yaml_payloads": 59
     }
   }
 }

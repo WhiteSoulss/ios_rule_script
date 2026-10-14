@@ -36,7 +36,7 @@ AllInOne.sgmodule 相比已复核上游，仅两条运行时匹配有个人改�
 AllInOne 的域名排除不应被扩展成全配置的 MITM 禁用。
 
 当前已复核上游提交：
-19c84682407580056d0ae2f27e406f70db679de1
+d8363caa2c1e47fb735615316032bed3f475ee57
 上游 AllInOne SHA256：
 66a8282facc2c339363bdf924b0a65eeaf11b57acf4b5839538044303a2d388d
 用户确认的两条规则版本提交：
@@ -89,3 +89,20 @@ AllInOne 原版、个人模块、脚本目录、作者、许可证和工作流�
 具体文件记录、实际数据差异及资源哈希见 upstream-sync-review-20261012.json。
 后续读取 pinterest-review.json 的 latest_upstream_sync 指向最新完整复核记录；
 原版/依赖有真实变化必须阅读全文和差异，不能用 hash/计数替代批准。
+
+
+## 2026-10-13（America/Los_Angeles）已复核同步
+
+已固定上游 d8363caa2c1e47fb735615316032bed3f475ee57，新增一次提交，仅修改 rule/
+目录的 278 个数据、计数和时间戳文件。逐文件归档新旧实际字节并核对 Git blob；
+完整三方树无冲突，全部个人文件与旧审核记录保留。
+实际 Surge 差异包括广告域名更新、China 系列域名/CIDR 调整、Global 增加
+91short.com；DOMAIN-SET 的前导点按后缀匹配单独核对，不把纯域名误作规则类型。
+4,114 条变更域名/关键词行及 160 条 CIDR 行（含 no-resolve 格式变体）通过结构检查，
+59 个 YAML payload 完整解析。README 仅时间戳与数量变化。
+AdGuard AdvertisingLite/Privacy 只更新时间；Surge AdvertisingLite 的规则文件未变。
+
+AllInOne 原版、个人模块和两个实际脚本资源均未变，保留已经确认的两条 Pinterest
+关键词排除；既有 ICU 范围/等价检查通过。没有扩展排除、修改脚本或拆分诊断模块。
+详见 upstream-sync-review-20261014.json。旧模块/依赖哈希复用建立在实际字节一致上，
+不把新提交编号或计数当作转换审核。服务器检查仍不等于客户端广告效果验证。
