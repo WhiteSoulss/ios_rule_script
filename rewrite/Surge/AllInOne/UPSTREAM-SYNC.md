@@ -36,7 +36,7 @@ AllInOne.sgmodule 相比已复核上游，仅两条运行时匹配有个人改�
 AllInOne 的域名排除不应被扩展成全配置的 MITM 禁用。
 
 当前已复核上游提交：
-d8363caa2c1e47fb735615316032bed3f475ee57
+933875d42861a7fdfd9f945cd18605d74fa7e943
 上游 AllInOne SHA256：
 66a8282facc2c339363bdf924b0a65eeaf11b57acf4b5839538044303a2d388d
 用户确认的两条规则版本提交：
@@ -106,3 +106,23 @@ AllInOne 原版、个人模块和两个实际脚本资源均未变，保留已�
 关键词排除；既有 ICU 范围/等价检查通过。没有扩展排除、修改脚本或拆分诊断模块。
 详见 upstream-sync-review-20261014.json。旧模块/依赖哈希复用建立在实际字节一致上，
 不把新提交编号或计数当作转换审核。服务器检查仍不等于客户端广告效果验证。
+
+
+## 2026-10-15（America/Los_Angeles）已复核同步
+
+固定上游 933875d42861a7fdfd9f945cd18605d74fa7e943，新增一次提交，仅修改 rule/ 下
+265 个数据、计数和时间戳文件。全部 530 份新旧字节已归档并核对 Git blob，完整三方
+对照无冲突，保留所有个人文件与历史复核记录。
+
+实际变化包括 Advertising 增加 730/移除 39 条域名，AdvertisingTest 增加 998/移除
+22 条；China 系列域名及 IPv4/IPv6 网段调整；TikTok 增加 capcutapi.com、
+capcutapi.us、capcutstatic.com。9,366 条变更域名/关键词行与 538 条 CIDR 行
+（包含各格式变体）通过检查；6 份 DOMAIN-SET 与完整规则的变更语义对应，56 个
+YAML payload 完整解析。47 份 README 仅时间戳和数量变化。AdGuard Lite/Privacy
+活动规则及 Surge AdvertisingLite 不变。
+
+AllInOne、脚本目录、许可证和工作流均未变化；两个实际运行脚本的可变 URL 与固定
+版本字节一致。保留用户确认的两条 Pinterest 排除与全部其他原版动作，既有 ICU
+范围及其他域名等价检查通过，脚本仅编译未执行。详见 upstream-sync-review-20261016.json。
+没有转换新的 Loon 项目，没有操作客户端、启用工作流、恢复网站或迁移云端。
+服务器检查不代表客户端广告效果验证。
