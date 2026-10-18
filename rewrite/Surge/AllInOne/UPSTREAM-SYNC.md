@@ -36,7 +36,7 @@ AllInOne.sgmodule 相比已复核上游，仅两条运行时匹配有个人改�
 AllInOne 的域名排除不应被扩展成全配置的 MITM 禁用。
 
 当前已复核上游提交：
-933875d42861a7fdfd9f945cd18605d74fa7e943
+7dd06b44f5093dd5404e1e5f3bca5452d97146ef
 上游 AllInOne SHA256：
 66a8282facc2c339363bdf924b0a65eeaf11b57acf4b5839538044303a2d388d
 用户确认的两条规则版本提交：
@@ -126,3 +126,24 @@ AllInOne、脚本目录、许可证和工作流均未变化；两个实际运行
 范围及其他域名等价检查通过，脚本仅编译未执行。详见 upstream-sync-review-20261016.json。
 没有转换新的 Loon 项目，没有操作客户端、启用工作流、恢复网站或迁移云端。
 服务器检查不代表客户端广告效果验证。
+
+
+## 2026-10-17（America/Los_Angeles）已复核同步
+
+固定上游 7dd06b44f5093dd5404e1e5f3bca5452d97146ef，新增一次提交，仅修改 rule/ 下
+297 个数据、计数和时间戳文件。594 份新旧实际字节已归档并核对 Git blob，完整三方
+对照无冲突，保留全部个人文件及历史复核记录。
+
+Advertising 增加 1,017/移除 8 条后缀，AdvertisingTest 增加 715/移除 7 条。
+China 系列调整域名和 IPv4/IPv6 段，保留 download.microsoft.com 的精确主机规则；
+Global 增加六个域名，Proxy 增加 7x24hrs.com、meta.ai、metaaivm.com。
+6,624 条变更域名/关键词行及 2,364 条 CIDR 行（含各格式变体）通过结构检查；
+八份 DOMAIN-SET 与完整规则的差异对应，64 个 YAML payload 完整解析。
+52 份 README 仅时间戳与数量变化。AdGuard Lite/Privacy 活动规则及 Surge
+AdvertisingLite 不变。
+
+AllInOne、脚本目录、作者/许可证和工作流均未变。两个实际运行脚本的可变 URL
+与固定版本字节一致；脚本仅编译未执行。保留用户确认的两条 Pinterest 排除，既有
+ICU 范围/其他主机等价检查通过。详见 upstream-sync-review-20261018.json。
+没有转换新 Loon 项目、操作客户端、启用工作流、恢复网站或迁移云端；服务器检查
+不代表客户端去广告验证。
