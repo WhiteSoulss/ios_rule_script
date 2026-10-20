@@ -2,7 +2,7 @@
   "review_date": "2026-10-11",
   "repository": "WhiteSoulss/ios_rule_script",
   "upstream_repository": "blackmatrix7/ios_rule_script",
-  "upstream_commit": "7dd06b44f5093dd5404e1e5f3bca5452d97146ef",
+  "upstream_commit": "f9e403a75bbc4bee939c6d8dd766cf78f1b512f3",
   "module_path": "rewrite/Surge/AllInOne/AllInOne.sgmodule",
   "upstream_sha256": "66a8282facc2c339363bdf924b0a65eeaf11b57acf4b5839538044303a2d388d",
   "module_sha256": "43bdfbba457be8a9eb8fab3ff62d018505b296a5e2351c31841fa3ad5038a77a",
@@ -91,12 +91,12 @@
     "execution_host": "107.174.244.24"
   },
   "latest_upstream_sync": {
-    "date": "2026-10-17",
+    "date": "2026-10-19",
     "timezone": "America/Los_Angeles",
-    "upstream_commit": "7dd06b44f5093dd5404e1e5f3bca5452d97146ef",
-    "previous_upstream_commit": "933875d42861a7fdfd9f945cd18605d74fa7e943",
-    "scope": "whole upstream repository; 297 rule dataset/metadata files only; AllInOne and scripts unchanged",
-    "review_record": "rewrite/Surge/AllInOne/upstream-sync-review-20261018.json",
+    "upstream_commit": "f9e403a75bbc4bee939c6d8dd766cf78f1b512f3",
+    "previous_upstream_commit": "7dd06b44f5093dd5404e1e5f3bca5452d97146ef",
+    "scope": "whole upstream repository; 226 rule dataset/metadata files only; AllInOne and scripts unchanged",
+    "review_record": "rewrite/Surge/AllInOne/upstream-sync-review-20261020.json",
     "runtime_module_changed": false,
     "verification": {
       "status": "passed",
@@ -120,14 +120,14 @@
       "client_runtime_tested": false
     },
     "native_rule_changes_validated": {
-      "native_surge_files": 55,
-      "changed_domain_and_keyword_rows": 6624,
-      "changed_cidr_rows": 2364,
-      "unique_added_rules": 1842,
-      "unique_removed_rules": 196,
-      "yaml_payloads_parsed": 64,
+      "native_surge_files": 44,
+      "changed_domain_and_keyword_rows": 12223,
+      "changed_cidr_rows": 68,
+      "unique_added_rules": 3506,
+      "unique_removed_rules": 205,
+      "yaml_payloads_parsed": 47,
       "yaml_loader": "CSafeLoader",
-      "domain_set_delta_equivalence_checks": 8
+      "domain_set_delta_equivalence_checks": 3
     }
   }
 }

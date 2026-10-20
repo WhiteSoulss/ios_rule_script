@@ -36,7 +36,7 @@ AllInOne.sgmodule 相比已复核上游，仅两条运行时匹配有个人改�
 AllInOne 的域名排除不应被扩展成全配置的 MITM 禁用。
 
 当前已复核上游提交：
-7dd06b44f5093dd5404e1e5f3bca5452d97146ef
+f9e403a75bbc4bee939c6d8dd766cf78f1b512f3
 上游 AllInOne SHA256：
 66a8282facc2c339363bdf924b0a65eeaf11b57acf4b5839538044303a2d388d
 用户确认的两条规则版本提交：
@@ -145,5 +145,27 @@ AdvertisingLite 不变。
 AllInOne、脚本目录、作者/许可证和工作流均未变。两个实际运行脚本的可变 URL
 与固定版本字节一致；脚本仅编译未执行。保留用户确认的两条 Pinterest 排除，既有
 ICU 范围/其他主机等价检查通过。详见 upstream-sync-review-20261018.json。
+没有转换新 Loon 项目、操作客户端、启用工作流、恢复网站或迁移云端；服务器检查
+不代表客户端去广告验证。
+
+
+## 2026-10-19（America/Los_Angeles）已复核同步
+
+固定上游 f9e403a75bbc4bee939c6d8dd766cf78f1b512f3，新增一次提交，仅修改 rule/ 下
+226 个数据、计数和时间戳文件。452 份新旧实际字节已归档并核对 Git blob；完整三方
+对照无冲突，保留全部个人文件及历史复核记录。
+
+Advertising 新增 689 条后缀；AdvertisingTest 新增 3,168/移除 196 条域名。
+ChinaIPs 拆分 211.99.8.0/21，ChinaIPsTest 同时调整 110.40/110.42 及 IPv6 段。
+Global 新增 18/移除 2 条后缀；Lan 新增 localhost.weixin.qq.com 与
+localhost.work.weixin.qq.com 两条精确主机规则。12,223 条变更域名/关键词行及
+68 条 CIDR 行（含各格式变体）通过结构检查；三份 DOMAIN-SET 差异对应完整规则，
+47 个 YAML payload 完整解析。32 份 README 仅时间戳与数量变化。
+Apple、Blizzard、Game、ChinaMax、AdGuard Lite/Privacy 活动规则及 Surge
+AdvertisingLite 均不变。
+
+AllInOne、脚本目录、作者/许可证和工作流均未变。两个运行脚本的可变 URL
+与固定版本字节一致；脚本仅编译未执行。保留用户确认的两条 Pinterest 排除，既有
+ICU 范围与其他主机等价检查通过。详见 upstream-sync-review-20261020.json。
 没有转换新 Loon 项目、操作客户端、启用工作流、恢复网站或迁移云端；服务器检查
 不代表客户端去广告验证。
