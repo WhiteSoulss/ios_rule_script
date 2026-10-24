@@ -18,7 +18,8 @@
 root SSH 密钥：/Users/samcheng/.ssh/codex_vps_107_uptime_kuma。
 当前服务器工作目录：/root/allinone-fork-20261011。
 本机只编辑、SSH 和读取任务记录；不操作本机代理客户端或浏览器。
-ad.quietvales.com 保持停用，共享 nginx router 字节不变。
+ad.quietvales.com 已按用户最新要求恢复，独立在 107 维护；此 fork 同步不部署网站。
+云端迁移仍暂停，共享 nginx router 字节不变。
 
 ## 已确认的个人行为
 
@@ -36,7 +37,7 @@ AllInOne.sgmodule 相比已复核上游，仅两条运行时匹配有个人改�
 AllInOne 的域名排除不应被扩展成全配置的 MITM 禁用。
 
 当前已复核上游提交：
-f9e403a75bbc4bee939c6d8dd766cf78f1b512f3
+00d82f6c6c374abb947fabc9c1b69f2a22e71dbc
 上游 AllInOne SHA256：
 66a8282facc2c339363bdf924b0a65eeaf11b57acf4b5839538044303a2d388d
 用户确认的两条规则版本提交：
@@ -72,7 +73,7 @@ d11dc3fb24f0d9604ff0a9508080fd8d42d67933
    有实际上游更新时，提交父项包含当前个人头和已复核上游头，保留合并历史；
    必要的个人修正和审核记录一起提交。重读头以防并发更改；不强制更新。
    发布后核对 raw 文件和资源的公开内容/哈希。无变化不创建空提交。
-   不操作用户设备，不自动启用 fork 的 GitHub Actions，不恢复旧网站。
+   不操作用户设备，不自动启用 fork 的 GitHub Actions，不修改独立网站部署。
 
 当新的上游 AllInOne 仍含这两条旧关键词时，排除规则必须保留。
 用户已授权正常、验证通过后的日常同步和发布，无需每次再询问。
@@ -169,3 +170,20 @@ AllInOne、脚本目录、作者/许可证和工作流均未变。两个运行�
 ICU 范围与其他主机等价检查通过。详见 upstream-sync-review-20261020.json。
 没有转换新 Loon 项目、操作客户端、启用工作流、恢复网站或迁移云端；服务器检查
 不代表客户端去广告验证。
+
+
+## 2026-10-23（America/Los_Angeles）已复核同步
+
+固定上游 00d82f6c6c374abb947fabc9c1b69f2a22e71dbc，更新 rule/ 内 292 个文件，
+包含三份新的 Steam_Resolve.list，未删除源文件。581 份实际新旧版本已归档并核对
+Git blob，完整三方比较无冲突，保留全部个人文件、历史审核和合并父提交。
+Advertising 新增 5,393/移除 910 条域名，AdvertisingTest 新增 2,951/移除 727 条。
+ChinaIPs/ChinaIPsTest 与 ChinaMax 系列域名和 IPv4/IPv6 数据调整；Global 新增
+51 条后缀。Steam/Game 各新增三个后缀和十二个 IPv4 段。三份 Steam_Resolve
+完整 69 行与原 Steam 列表仅 no-resolve 参数不同；八条 README 新说明已单独核对。
+30,186 条域名/关键词变体和 708 条 CIDR 变体通过校验，61 个 YAML payload 解析，
+七份 DOMAIN-SET 差异与完整规则对应。AdGuard Lite/Privacy 活动数据、Surge
+AdvertisingLite、AllInOne 原版/个人版本和两个运行脚本均未变。保留两条已经用户
+确认的 Pinterest 排除，既有 ICU 与脚本语法检查通过；服务器检查不等于设备实测。
+详见 upstream-sync-review-20261024.json。可莉网站与 wool_scripts 分别复核且无变化，
+保留滴滴独立客户端状态，不操作设备、不启用工作流、不迁移云端。

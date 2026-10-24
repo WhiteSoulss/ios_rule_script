@@ -14,8 +14,10 @@ Do not publish split diagnostic modules or broaden these exclusions silently.
 Downloads, builds, merging and checks run only on VPS 107.174.244.24. Use the
 authorized root SSH connection; the Mac is for editing, SSH and task records.
 Do not operate the user's Surge/Loon/Stash devices or local browser.
-Keep the retired ad.quietvales.com website retired and the shared nginx router
-/etc/nginx/stream-conf.d/silvervales-router.conf byte-for-byte unchanged.
+The user restored ad.quietvales.com on 2026-10-22; maintain that website separately
+on 107 under /opt/kelee-surge-hub/MANUAL_UPDATES.md, with independent Surge/Stash
+and fmz source scopes. Cloud migration remains paused. This fork sync does not
+deploy the website. Keep /etc/nginx/stream-conf.d/silvervales-router.conf unchanged.
 
 Pin both branch heads, retain an immutable upstream baseline, review real diffs,
 and merge upstream changes while preserving all personal files and user changes.
